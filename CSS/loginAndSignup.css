@@ -1,0 +1,613 @@
+body {
+    font-family: Mali;
+    background-color: #29abe2;
+
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0 0;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #CCCC33;
+    border-radius: 5px;
+}
+
+@-webkit-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@-moz-keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+@keyframes AnimationName {
+    0% {
+        background-position: 0% 50%
+    }
+
+    50% {
+        background-position: 100% 50%
+    }
+
+    100% {
+        background-position: 0% 50%
+    }
+}
+
+/* !"Navbar" */
+.logo {
+    width: 120px;
+    height: 80px;
+}
+
+.navbar-brand {
+    margin: auto;
+}
+
+.navbar {
+    /* background-color: #29abe2; */
+    background: linear-gradient(270deg, #29abe2, #ffffff);
+    background-size: 400% 400%;
+
+    -webkit-animation: AnimationName 15s ease infinite;
+    -moz-animation: AnimationName 15s ease infinite;
+    animation: AnimationName 15s ease infinite;
+}
+
+/* !CONTAINERHEADER(IMG) */
+div.header {
+    padding: 0%;
+    margin-bottom: 4%;
+}
+
+div.header img.header {
+    width: 12%;
+}
+
+/* !THE FULL CONTAINER  FORM */
+div.container-fluid.formContainer {
+    margin-top: 5%;
+    margin-bottom: 10%;
+}
+
+form div.form-group>input {
+    border-radius: 5px;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: #29abe2;
+}
+
+/* !ROW CONTAINER FORM AND OTHER ELEMENTS */
+div.container-fluid.formContainer div.row {
+    margin: auto;
+    margin-left: 20%;
+    margin-right: 20%;
+    border: #29ABE2 solid 2px;
+    padding: 2%;
+    border-radius: 7px;
+    background-color: #ffffff
+}
+
+/* !FORM INPUT */
+form.SignInform div.form-group input {
+    border: 2px solid;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: #29ABE2;
+    font-size: 1.3rem;
+    margin-bottom: 8%;
+}
+
+form.SignInform div.form-group input:focus {
+    color: #000000;
+    box-shadow: 0 0 0 0;
+}
+
+/* !FORM SIGN IN BUTTON */
+form#signInForm input.btn.logIn {
+    width: 50%;
+    font-size: 1.2rem;
+    border: 1px solid #29abe2;
+    background-color: transparent;
+    color: #29ABE2
+}
+
+div.text-center.buttonContainer {
+    margin-top: 7%;
+    transition: all .5s ease-in-out;
+}
+
+div.text-center.buttonContainer:hover {
+    transform: scale(1.05, 1.05)
+}
+
+div.text-center.buttonContainer2 {
+    transition: all .5s ease-in-out;
+}
+
+div.text-center.buttonContainer2:hover {
+    transform: scale(1.05, 1.05)
+}
+
+/* !SIGN IN OR SIGN UP DIVIDOR */
+h1.display-5 {
+    margin-top: 1%;
+    margin-bottom: 1%;
+    font-size: 1.5rem;
+}
+
+/* !REGISTRATION MODAL OPEN*/
+button.btn.signUp {
+    width: 80%;
+    font-size: 1.2rem;
+    color: #000000;
+    border: none;
+    background-color: transparent;
+    color: #29ABE2
+}
+
+/* !MODAL*/
+div#newUserModal div.modal-content {
+    background-color: #29ABE2;
+    color: #ffffff;
+}
+
+button.btn.createUser {
+    background-color: transparent;
+    color: #ffffff;
+    border: 2px solid #CCCC33;
+    width: 50%;
+}
+
+/* !CANCEL REGISTRATION*/
+div.modal-header button.btn.btn-danger {
+    margin-left: 87%;
+}
+
+/* !FOOTER */
+/* Footer */
+footer.page-footer {
+    border-top: 2px solid #ffffff;
+    background: #29ABE2;
+    color: #ffffff;
+    font-size: .9rem;
+}
+
+/* Footer Headings */
+footer .footerHeading {
+    color: #CCCC33;
+    white-space: nowrap;
+    font-size: 1rem;
+}
+
+/* Footer Line */
+footer .footerLine {
+    background-color: #CCCC33;
+    margin: 0;
+}
+
+/* Paragrafo copyright */
+footer p.copyrightParagraph {
+    margin: 0;
+}
+
+/* Favicons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+/* Favicon Facebook */
+.fa-facebook {
+    color: #ffffff;
+}
+
+/* Favicon Twitter */
+.fa-twitter {
+    color: #ffffff;
+}
+
+/* Favicon Youtube */
+.fa-youtube {
+    color: #ffffff;
+}
+
+/* Favicon Instgram */
+.fa-instagram {
+    color: #ffffff;
+}
+
+
+div.container-fluid.text-center div.row {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+/* div  with the social media */
+div.col-md-6.col-lg-2.text-center.mx-auto.my-4 div.row {
+    padding: 0%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+div.col-md-6.col-lg-2.text-center.mx-auto.my-4 div.row a {
+    margin: auto
+}
+
+/* Popup */
+.popupError {
+    position: relative;
+    display: inline-block;
+    cursor: pointer;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+/* The actual popup */
+.popupError .popupText {
+    visibility: hidden;
+    width: 160px;
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 8px 0;
+    position: absolute;
+    z-index: 1;
+    bottom: 125%;
+    left: 50%;
+    margin-left: -80px;
+}
+
+/* Popup arrow */
+.popupError .popupText::after {
+    content: "";
+    position: absolute;
+    top: 100%;
+    left: 50%;
+    margin-left: -5px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: #555 transparent transparent transparent;
+}
+
+/* Toggle this class - hide and show the popup */
+.popupError .show {
+    visibility: visible;
+    -webkit-animation: fadeIn 1s;
+    animation: fadeIn 1s;
+}
+
+/* Add animation (fade in the popup) */
+@-webkit-keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+
+
+/* !iPhone 6,8,9 */
+@media only screen and (max-width: 411px) and (min-width: 370px) {
+
+    div.container-fluid.formContainer div.row {
+        margin: auto;
+        margin-left: 3%;
+        margin-right: 3%;
+        border: #29ABE2 solid 2px;
+        padding: 0%;
+        border-radius: 7px;
+        background-color: #ffffff
+    }
+
+    /* !LOGO CONTAINER */
+    div.header {
+        padding: 0%;
+        margin-top: 5%
+    }
+
+    div.header img.header {
+        width: 20%;
+    }
+
+    /* !ROW CONTAINER FORM AND OTHER ELEMENTS */
+    div.container-fluid.formContainer div.row {
+        padding: 1%;
+    }
+
+    /* !FORM INPUT */
+    form.SignInform div.form-group input {
+        font-size: 0.8rem;
+    }
+
+    /* !FORM SIGN IN BUTTON */
+    form.SignInform button.btn.btn-primary.logIn {
+        width: 60%;
+        font-size: 0.9rem;
+    }
+
+    /* !REGISTRATION MODAL OPEN*/
+    button.btn.btn-primary.signUp {
+        width: 60%;
+        font-size: 0.9rem;
+
+    }
+
+    /* !SIGN IN OR SIGN UP DIVIDOR */
+    h1.display-5 {
+        margin-top: 1%;
+        margin-bottom: 1%;
+        font-size: 0.7rem;
+    }
+
+    div.modal-header button.btn.btn-danger {
+        margin-left: 69%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+/* ?MQ ADD ADJUSTS */
+/* !SMALL PHONES FOCUS*/
+@media screen and (max-width: 376px) {
+
+    div.container-fluid.formContainer div.row {
+        margin: auto;
+        margin-left: 3%;
+        margin-right: 3%;
+        border: #29ABE2 solid 2px;
+        padding: 0%;
+        border-radius: 7px;
+        background-color: #ffffff
+    }
+
+    /* !LOGO CONTAINER */
+    div.header {
+        padding: 0%;
+        margin-top: 5%
+    }
+
+    div.header img.header {
+        width: 20%;
+    }
+
+    /* !ROW CONTAINER FORM AND OTHER ELEMENTS */
+    div.container-fluid.formContainer div.row {
+        padding: 1%;
+    }
+
+    /* !FORM INPUT */
+    form.SignInform div.form-group input {
+        font-size: 0.8rem;
+    }
+
+    /* !FORM SIGN IN BUTTON */
+    form.SignInform button.btn.btn-primary.logIn {
+        width: 60%;
+        font-size: 0.9rem;
+    }
+
+    /* !REGISTRATION MODAL OPEN*/
+    button.btn.btn-primary.signUp {
+        width: 60%;
+        font-size: 0.9rem;
+
+    }
+
+    /* !SIGN IN OR SIGN UP DIVIDOR */
+    h1.display-5 {
+        margin-top: 1%;
+        margin-bottom: 1%;
+        font-size: 0.7rem;
+    }
+
+    /* !CANCEL REGISTRATION*/
+    div.modal-header button.btn.btn-danger {
+        margin-left: 69%;
+    }
+
+}
+
+/* !IPAD */
+@media only screen and (max-width: 769px) and (min-width: 768px) {
+
+    div.header img.header {
+        width: 16%;
+    }
+
+    /* !ROW CONTAINER FORM AND OTHER ELEMENTS */
+    div.container-fluid.formContainer div.row {
+        padding: 1%;
+    }
+
+    /* !FORM INPUT */
+    form.SignInform div.form-group input {
+        font-size: 1.2rem;
+    }
+
+    /* !FORM SIGN IN BUTTON */
+    form.SignInform button.btn.btn-primary.logIn {
+        width: 60%;
+        font-size: 1rem;
+    }
+
+    /* !REGISTRATION MODAL OPEN*/
+    button.btn.btn-primary.signUp {
+        width: 60%;
+        font-size: 1rem;
+
+    }
+
+    /* !SIGN IN OR SIGN UP DIVIDOR */
+    h1.display-5 {
+        margin-top: 1%;
+        margin-bottom: 1%;
+        font-size: 0.9rem;
+    }
+
+
+    /* !CANCEL REGISTRATION*/
+    div.modal-header button.btn.btn-danger {
+        margin-left: 79%;
+    }
+
+
+
+}
+
+/* !(IPAD-PRO) */
+@media only screen and (max-width: 1025px) and (min-width: 1024px) {
+    div.header img.header {
+        width: 14%;
+    }
+
+    /* !ROW CONTAINER FORM AND OTHER ELEMENTS */
+    div.container-fluid.formContainer div.row {
+        padding: 1%;
+    }
+
+    /* !FORM INPUT */
+    form.SignInform div.form-group input {
+        font-size: 1.2rem;
+    }
+
+    /* !FORM SIGN IN BUTTON */
+    form.SignInform button.btn.btn-primary.logIn {
+        width: 60%;
+        font-size: 1rem;
+    }
+
+    /* !REGISTRATION MODAL OPEN*/
+    button.btn.btn-primary.signUp {
+        width: 60%;
+        font-size: 1rem;
+
+    }
+
+    /* !SIGN IN OR SIGN UP DIVIDOR */
+    h1.display-5 {
+        margin-top: 1%;
+        margin-bottom: 1%;
+        font-size: 0.9rem;
+    }
+
+
+}
+
+/* !PIXEL & IPHONE PLUS*/
+@media only screen and (max-width: 415px) and (min-width: 411px) {
+
+
+    div.container-fluid.formContainer div.row {
+        margin: auto;
+        margin-left: 3%;
+        margin-right: 3%;
+        border: #29ABE2 solid 2px;
+        padding: 0%;
+        border-radius: 7px;
+        background-color: #ffffff
+    }
+
+    /* !LOGO CONTAINER */
+    div.header {
+        padding: 0%;
+        margin-top: 5%
+    }
+
+    div.header img.header {
+        width: 20%;
+    }
+
+    /* !ROW CONTAINER FORM AND OTHER ELEMENTS */
+    div.container-fluid.formContainer div.row {
+        padding: 1%;
+    }
+
+    /* !FORM INPUT */
+    form.SignInform div.form-group input {
+        font-size: 0.8rem;
+    }
+
+    /* !FORM SIGN IN BUTTON */
+    form.SignInform button.btn.btn-primary.logIn {
+        width: 60%;
+        font-size: 0.9rem;
+    }
+
+    /* !REGISTRATION MODAL OPEN*/
+    button.btn.btn-primary.signUp {
+        width: 60%;
+        font-size: 0.9rem;
+    }
+
+    /* !SIGN IN OR SIGN UP DIVIDOR */
+    h1.display-5 {
+        margin-top: 1%;
+        margin-bottom: 1%;
+        font-size: 0.7rem;
+    }
+
+    /* !CANCEL REGISTRATION*/
+    div.modal-header button.btn.btn-danger {
+        margin-left: 74%;
+    }
+}

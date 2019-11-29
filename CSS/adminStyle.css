@@ -1,0 +1,1728 @@
+body {
+    font-family: Mali;
+    overflow-x: hidden;
+}
+
+.logo {
+    width: 120px;
+    height: 80px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar {
+    background-color: #0079AC;
+}
+
+.navbar-brand {
+    margin: 0%;
+}
+
+.nav-link {
+    font-size: 24px;
+}
+
+.nav-item {
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+ul.navbar-nav.ml-auto li a.nav-link {
+    color: #ffffff;
+}
+
+ul.navbar-nav.ml-auto li a.nav-link:hover {
+    color: #CCCC33;
+}
+
+li.nav-item.line {
+    border-right: 2px solid #CCCC33;
+}
+
+@media screen and (max-width: 375px) {
+    li.nav-item.line {
+        border-right: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    li.nav-item.line {
+        border-right: 0px;
+    }
+}
+
+/* ! BUTTONS MODAL LEVELS*/
+
+button.btn.createLevel{
+    background-color: transparent;
+    color: #29ABE2;
+    border: 1px solid #29ABE2;
+}
+
+button.btn.createLevel:focus{
+    box-shadow: 0 0 0 0;
+}
+
+button.btn.approve{
+    background-color: transparent;
+    color: #29ABE2;
+    border: 1px solid #29ABE2;
+}
+
+button.btn.reject{
+    background-color: transparent;
+    color: #29ABE2;
+    border: 1px solid #29ABE2;
+}
+
+/* ! USERS + HEADER CONTAINER*/
+
+div.row div.col-12.users {
+    color: #ffffff;
+    background-color: #29ABE2;
+}
+
+/* ! COUNTER USERS - CARDS*/
+
+div.container-fluid.userCard div.row {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+div.row div.card-deck.mx-auto div.card.userCards {
+    background-color: #29ABE2;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+/* !USER TABLE FILTER*/
+div.container-fluid.userFilter {
+    padding-top: 5rem;
+    margin-bottom: 3%;
+    margin-top: 1%;
+    padding-left: 5%;
+    font-size: 24px;
+}
+
+button.filterUsers {
+    border: 1px solid #ffffff;
+    margin-left: 3rem;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+button.filterUsers:focus {
+    box-shadow: 0 0 0 0
+}
+
+button.filterUsers:hover {
+    color: #ffffff
+}
+
+/* ! USERS TABLE + CONTAINER + HEADER*/
+div.container-fluid.users {
+    background-color: #29ABE2;
+}
+
+div.row div.col-lg-6 div.card.mx-auto {
+    background-color: #29ABE2;
+}
+
+div.container-fluid div.row.userHeader div.col-lg-12 h1.display-4.text-center {
+    color: #ffffff;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-weight: 500;
+}
+
+table.table-bordered {
+    font-size: 24px;
+    border: 2px solid #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 5%;
+}
+
+div.table-responsive{
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+table.table-bordered>thead>tr>th {
+    border: 2px solid #ffffff;
+}
+
+table.table-bordered>tbody>tr>td {
+    border: 2px solid #ffffff;
+}
+
+table.table-bordered>tbody>tr>th {
+    border: 2px solid #ffffff;
+}
+
+/* ! NEW  ADMIN ACCOUNT CONTAINER + CONTENT */
+div.row.addAdminModalButtonContainer {
+    background-color: #29ABE2;
+}
+
+button.btn.createAdmin {
+    background-color: #BFFFFF;
+    color: #29ABE2;
+    font-size: 20px;
+    margin: auto;
+}
+
+.blockButton {
+    background-color: Transparent;
+    background-repeat: no-repeat;
+    border: none;
+    cursor: pointer;
+    overflow: hidden;
+    outline: none;
+    padding: 0%;
+}
+
+.changeUser {
+    width: 3rem;
+    height: 3rem;
+}
+
+button.block{
+    border: 1px solid #29ABE2;
+    color: #29ABE2;
+}
+
+button.block:focus{
+    box-shadow: 0 0 0 0;
+    color: #29ABE2;
+}
+
+button.btn.userButton{
+    background-color: transparent;
+    border: 0px;
+    font-size: 24px;
+}
+
+button.btn.userButton:focus{
+    box-shadow: 0 0 0 0;
+}
+
+button.btn.remove:focus{
+    box-shadow: 0 0 0 0;
+}
+
+button.btn.newUserDetails {
+    border: 1px solid #29ABE2;
+    border-radius: 8px;
+    color: #29ABE2;
+}
+
+button.btn.yesBlock{
+    background-color: #ffffff;
+    border: 1px solid #29ABE2;
+    color: #29ABE2;
+}
+
+button.btn.yesBlock:focus{
+    box-shadow: 0 0 0 0;
+}
+
+button.btn.noBlock{
+    background-color: #ffffff;
+    border: 1px solid #29ABE2;
+    color: #29ABE2;
+}
+
+button.btn.noBlock:focus{
+    box-shadow: 0 0 0 0;
+}
+
+button.btn.yesButton{
+    background-color: #ffffff;
+    border: 1px solid #29ABE2;
+    color: #29ABE2;
+}
+
+button.btn.yesButton:focus{
+    box-shadow: 0 0 0 0;
+}
+
+button.btn.noButton{
+    background-color: #ffffff;
+    border: 1px solid #29ABE2;
+    color: #29ABE2;
+}
+
+button.btn.noButton:focus{
+    box-shadow: 0 0 0 0;
+}
+
+/* !FILER (USERPAGE) */
+
+div.container-fluid.userFilter form label {
+    color: #ffffff
+}
+
+/*!ADMIN ADD MODAL*/
+
+div#newUserModal div.modal-content {
+    background-color: #29ABE2;
+    color: #ffffff;
+}
+
+button.btn.newAdmin {
+    background-color: #BFFFFF;
+    color: #29ABE2;
+}
+
+/* !BLOCK USER ACCOUNT MODAL */
+div#newUserModal div.modal-content {
+    background-color: #29ABE2;
+    color: #ffffff;
+}
+
+button.btn.btn-primary.edit {
+    background-color: #ffffff;
+    color: #29ABE2;
+    border: 1px solid #29ABE2;
+    width: 100%;
+}
+
+/* div.container-fluid.newAccount{
+    padding-top: 0;
+    padding-bottom: 5%;
+}
+
+div.container-fluid.newAccount div.row.logoImage img{
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    top: 60px;
+}
+
+div.container-fluid.newAccount div.row div.col-lg-6{
+    background-color: #5CBFE9;
+    color: #ffffff;
+    font-size: 24px;
+    border-radius: 10px;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+div.container-fluid.newAccount div.row div.col-lg-6.mx-auto p.dados{
+    padding-left: 15%;
+    margin-bottom: 5%;
+}
+
+div.container-fluid.newAccount div.row div.col-lg-6.mx-auto button{
+    margin-bottom: 0;
+    border: 2px solid #ffffff;
+    border-radius: 10px;
+    color: #ffffff;
+    font-size: 24px;
+} */
+
+/* ! Quizzes + HEADER CONTAINER*/
+
+div.row div.col-12.quizzes {
+    color: #ffffff;
+    background-color: #4AB71B;
+}
+
+div.row div.col-12.quizzes img {
+    width: 5%;
+}
+
+div.row.separator {
+    margin-bottom: 5rem;
+}
+
+/* ! COUNTER QUIZZES - CARDS*/
+
+div.container-fluid.quizzesCards div.row {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+div.row div.card-deck.mx-auto.mt-5.mb-5 div.card.quizzCards {
+    background-color: #4AB71B;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+/* ! INFORMATION ABOUT QUIZZES - CARDS*/
+
+div.row.quizzesInfo {
+    background-color: #4AB71B;
+}
+
+div.row.quizzesInfo div.card-deck.mx-auto div.card.quizzInfoCards {
+    background-color: #29ABE2;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+/* ! CREATE NEW LEVEL - BUTTON */
+
+div.row.quizzesInfo button.btn.newLevelBtn {
+    background-color: #BFFFFF;
+    color: #29ABE2;
+    font-size: 24px;
+}
+
+/* ! LEVEL HEADER */
+
+div.row div.col-12.text-center.quizzesLevel {
+    background-color: #ffffff;
+    color: #4AB71B;
+}
+
+/* ! TABLE HEADER CONTAINER QUIZZES TABLE + TABLE */
+
+div.row div.col-12.text-center.quizzesTable {
+    background-color: #4AB71B;
+    color: #ffffff;
+}
+
+/* !QUIZ STATISTIC CARDS - FOR EACH CONTINENT*/
+
+div.container-fluid.quizzesCards div.card-deck.mx-auto div.card.quizzesCards div.card-body.text-center {
+    background-color: #4AB71B;
+    font-size: 20px;
+    color: #ffffff;
+}
+
+/* ! ADD NEW LEVEL - BUTTON */
+
+div.row.quizzesInfo button.btn.addLevelBtn {
+    background-color: #BFFFFF;
+    color: #29ABE2;
+    font-size: 24px;
+}
+
+/* ! CATALOG HEADER AND IMAGE */
+
+div.row div.col-12.catalog {
+    color: #ffffff;
+    background-color: rgb(247, 127, 53)
+}
+
+div.row div.col-12.catalog img {
+    width: 5%;
+}
+
+/* ! COUNTER CATALOG - CARDS*/
+
+div.container-fluid.catalogCard div.row {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+div.row div.card-deck.mx-auto div.card.catalogCards {
+    background-color: rgb(247, 127, 53);
+    font-size: 20px;
+    color: #ffffff;
+}
+
+/* ! SELECT FORMS */
+
+select.form-control {
+    border: 1px solid #ffffff;
+    background-color: transparent;
+    color: #000000;
+}
+
+select.form-control:focus {
+    color: #000000;
+    border: 1px solid #ffffff;
+    background: transparent;
+    box-shadow: none;
+    outline: none;
+}
+
+select.form-control.levels{
+    border: 1px solid #29ABE2;
+    background-color: transparent;
+    color: #000000;
+}
+
+div.form-group.levels input.form-control{
+    border: 1px solid #29ABE2;
+}
+
+/* ! TABLE HEADER CONTAINER CATALOG TABLE + TABLE */
+
+div.row div.col-12.text-center.catalogTable {
+    background-color: rgb(247, 127, 53);
+}
+
+div.row.catalogInfo a.btn.addCountryBtn {
+    background-color: #BFFFFF;
+    color: #29ABE2;
+    font-size: 24px;
+}
+
+button.filterCatalog {
+    border: 1px solid #ffffff;
+    border-radius: 5px;
+    color: #ffffff;
+}
+
+table tbody td{
+    color: #ffffff;
+}
+
+/* ! CREATE NEW COUNTRY - BUTTON */
+
+div.row.catalogInfo {
+    background-color: rgb(247, 127, 53);
+}
+
+div.row.catalogInfo a.btn.addLevelBtn {
+    background-color: #BFFFFF;
+    color: #29ABE2;
+    font-size: 24px;
+}
+
+/* ! ADD NEW COUNTRY FORM */
+
+div.row div.col-lg-12.addCountry {
+    color: rgb(247, 127, 53);
+    background-color: #ffffff
+}
+
+div.container-fluid.newCountry div.row.countryForm div.col-lg-6 {
+    background-color: #5CBFE9;
+    color: #ffffff;
+    font-size: 24px;
+    border-radius: 10px;
+    padding-top: 5%;
+}
+
+div.row.logoImage img {
+    margin: auto;
+    position: relative;
+    z-index: 1;
+    top: 60px;
+}
+
+/* !NEW COUNTRY MODAL */
+div.row.addCountryModalButtonContainer {
+    background-color: rgb(247, 127, 53);
+}
+
+button.btn.createCountry {
+    background-color: #BFFFFF;
+    color: #29ABE2;
+    font-size: 20px;
+    margin: auto;
+}
+
+div#newCountryModal div.modal-content {
+    background-color: rgb(247, 127, 53);
+    color: #ffffff;
+}
+
+div#ModalEditCountry div.modal-content {
+    background-color: rgb(247, 127, 53);
+    color: #ffffff;
+}
+
+button.btn.edit {
+    box-shadow: 0 0 0 0;
+}
+
+.btn.btn-primary.createCountry {
+    background-color: #BFFFFF;
+    color: #29ABE2;
+    width: 100%;
+}
+
+/* ! SUGGESTIONS + HEADER CONTAINER*/
+div.container-fluid.suggestions {
+    background-color: #F249E6;
+}
+
+div.container-fluid.suggestions h1 {
+    background-color: #F249E6;
+    color: #ffffff;
+}
+
+/*!SUGESTION HEADER IMG*/
+div.container-fluid.suggestions div.col-lg-12.col-md-12.col-sm-12.col-12.text-center.suggestion img.mt-5.mb-2 {
+    width: 6%;
+}
+
+/* !SUGGESTION-CARDS */
+div.container-fluid.tableInsideSugestions {
+    background-color: #F249E6
+}
+
+div.container-fluid.suggestionCard div.row {
+    padding-top: 3%;
+    padding-bottom: 3%;
+}
+
+/* ! TABLE HEADER CONTAINER SUGGESTION TABLE + TABLE */
+div.col-12.text-center.suggestionTableHeader {
+    color: #ffffff
+}
+
+div.container-fluid.suggestions h1.display-5.mb-5 {
+    font-size: 2.5rem;
+
+}
+
+div.row div.col-lg-12.text-center.sugestionTable {
+    background-color: #F249E6;
+    color: #ffffff;
+}
+
+/* !TABLE HEADER TITLE */
+div.col-12.text-center.suggestionTableHeader h1 {
+    font-size: 2.1rem;
+}
+
+/* ! SUGESTION TABLE FILTER*/
+/* div.container-fluid.tableInsideSugestions label {
+    font-size: 1.5rem; 
+}*/
+/* need some talking about this*/
+/* ?THIS MAY WORK FOR ALL FILTERS  FOR THE TABLES */
+/* select#stlOrder {
+    font-size: 1.3rem;
+}
+
+select#stlOrder option {
+    font-size: 1rem;
+} */
+
+/* ! TABLE READ BUTTON -SUGGESTION TABLE*/
+button.btn.btn-success.read {
+    font-size: 20px;
+    margin: auto;
+}
+
+/* ! SUGGESTION PAGE -SUGGESTION MODAL*/
+#suggestionModal div.modal-content {
+    background-color: #F249E6;
+}
+
+img.modalLogo {
+    margin: auto;
+    width: 13%;
+    margin-left: 46%;
+}
+
+#suggestionModal div.modal-body {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#suggestionModal div.modal-footer button {
+    color: #29ABE2;
+    font-size: 15px;
+    background-color: #BFFFFF;
+}
+
+#suggestionModal div.modal-header button {
+    font-size: 15px;
+    color: #ffffff;
+}
+
+/*
+.modal-dialog {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -60%) !important;
+}
+*/
+
+body#suggestionModal:after {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    content: "";
+    pointer-events: none;
+    z-index: 100;
+    opacity: .5
+}
+
+/* ! FOOTER */
+
+footer.page-footer {
+    background: #0079AC;
+    color: #ffffff
+}
+
+/* Footer Headings */
+footer .footerHeading {
+    color: #CCCC33;
+    white-space: nowrap;
+}
+
+/* Footer Line */
+footer .footerLine {
+    background-color: #CCCC33;
+    margin: 0;
+}
+
+/* Paragrafo copyright */
+footer p.copyrightParagraph {
+    margin: 0;
+}
+
+/* Favicons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+/* Favicon Facebook */
+.fa-facebook {
+    color: #ffffff;
+}
+
+/* Favicon Twitter */
+.fa-twitter {
+    color: #ffffff;
+}
+
+/* Favicon Youtube */
+.fa-youtube {
+    color: #ffffff;
+}
+
+/* Favicon Instgram */
+.fa-instagram {
+    color: #ffffff;
+}
+
+
+div.container-fluid.text-center div.row {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+/* div  with the social media */
+div.col-md-6.col-lg-2.text-center.mx-auto.my-4 div.row {
+    padding: 0%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+
+div.col-md-6.col-lg-2.text-center.mx-auto.my-4 div.row a {
+    margin: auto
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* ? MEDIA QUERIES (Responsivnes adjustments)*/
+
+/* !(IPAD-PRO) */
+
+@media only screen and (max-width: 1025px) and (min-width: 1024px) {
+
+    /* Navbar adjustment */
+    .nav-link {
+        font-size: 1rem;
+        white-space: nowrap;
+    }
+
+    /* title and title img */
+    div.row div.col-12.quizzes img {
+        width: 6%;
+    }
+
+    h1.display-5.mb-5 {
+        font-size: 2rem;
+    }
+
+    /** QUIZZ PAGES (CONTINENT) */
+    /*img inside this pages  */
+    div.col-12.text-center.quizzes img.mt-5.mb-2 {
+        width: 6%;
+    }
+
+    /**QUIZZ LEVELS*/
+    div.col-lg-12.text-center.quizzesLevel.mt-5.mb-5 h1 {
+        font-size: 2rem;
+    }
+
+    div.col-12.text-center.quizzesTable h1.display-5.mt-5.mb-5 {
+        font-size: 2rem;
+    }
+
+    /** SUGESTION PAGE */
+    /* ! SUGGESTIONS + HEADER CONTAINER*/
+    div.container-fluid.suggestions div.col-lg-12.col-md-12.col-sm-12.col-12.text-center.suggestion h1 {
+        font-size: 2rem;
+    }
+
+    /*!SUGESTION + HEADER CONTAINER IMG */
+    div.container-fluid.suggestions div.col-lg-12.col-md-12.col-sm-12.col-12.text-center.suggestion img.mt-5.mb-2 {
+        width: 8%;
+    }
+
+    /* !SUGGESTION-CARDS (HIGHTLIGHTS) */
+    div.card.suggestionCards {
+        font-size: 20px;
+    }
+
+    /* !TABLE HEADER TITLE */
+    div.col-12.text-center.suggestionTableHeader h1 {
+        font-size: 2rem;
+    }
+
+    /* ! SUGESTION TABLE FILTER*/
+    /* div.container-fluid.tableInsideSugestions label {
+        font-size: 1.5rem;
+    } */
+    /* ?THIS MAY WORK FOR ALL FILTERS  FOR THE TABLES*/
+    /* select#stlOrder {
+        font-size: 1.3rem;
+    }
+
+    select#stlOrder option {
+        font-size: 1rem;
+    } */
+    /* ! TABLE READ BUTTON -SUGGESTION TABLE*/
+    button.btn.btn-success.read {
+        font-size: 18px;
+    }
+
+    /* !TABLE TEXT*/
+    table.table.table-bordered.mx-auto {
+        font-size: 20px
+    }
+
+    /*!TABLE DELETE BUTTON IMG*/
+    table.table.table-bordered.mx-auto img {
+        width: 23%
+    }
+
+    /**USER PAGE*/
+    /* ! USER + HEADER CONTAINER*/
+    div.col-12.text-center.users.pb-5.pt-5 h1 {
+        font-size: 2rem;
+    }
+
+    /*!USER+HEADER CONTAINER IMG */
+    div.row div.col-12.text-center.users.pb-5.pt-5 img.img-fluid.mb-4 {
+        width: 55px;
+    }
+
+    /* !USER-CARDS (HIGHTLIGHTS) */
+    div.card.userCards {
+        font-size: 1.15rem;
+    }
+
+    /* !TABLE HEADER TITLE */
+    div.container-fluid.users div.row.userHeader div.col-lg-12 h1 {
+        font-weight: 500;
+        font-size: 2rem;
+    }
+
+    /* !TABLE FILTER*/
+    div.container-fluid.userFilter form label {
+        font-size: 1.2rem;
+    }
+
+    /* ?THIS MAY WORK FOR ALL FILTERS  FOR THE TABLES*/
+    /* select#stlOrder {
+        font-size: 1.3rem;
+    }*/
+    div.container-fluid.userFilter form select#stlOrder option {
+        font-size: 0.9rem;
+    }
+
+    /* !TABLE TEXT*/
+    table.table.table-bordered {
+        font-size: 1.3rem
+    }
+
+    /*!TABLE DELETE BUTTON IMG*/
+    table.table.table-bordered img {
+        width: 40%
+    }
+
+    /**CATALOG PAGE*/
+    /* ! CATALOG + HEADER CONTAINER*/
+    div.row div.col-12.text-center.catalog h1 {
+        font-size: 2rem;
+    }
+
+    /*!CATALOG+HEADER CONTAINER IMG */
+    div.row div.col-12.text-center.catalog img {
+        width: 5%;
+    }
+
+    /* !CATALOG-CARDS (HIGHTLIGHTS) */
+    div.card.catalogCards div.card-body.text-center {
+        font-size: 1.15rem;
+    }
+
+    /* !TABLE HEADER TITLE */
+    div.col-12.text-center.catalogTable h1 {
+        font-weight: 500;
+        font-size: 2rem;
+    }
+
+    /* !TABLE TEXT*/
+    table.table.table-bordered.mx-auto.catalogTable {
+        font-size: 1.3rem
+    }
+
+    /*!TABLE BUTTON IMG*/
+    table.table.table-bordered.mx-auto.catalogTable img {
+        width: 40px
+    }
+
+}
+
+/* !IPAD */
+@media only screen and (max-width: 769px) and (min-width: 768px) {
+
+    /**NAVBAR */
+    .nav-link {
+        font-size: 1.2rem;
+
+    }
+
+    li.nav-item {
+        padding-left: 0%;
+    }
+
+    /** QUIZZ PAGE CARDS */
+    /* img */
+    div.row div.col-12.quizzes img {
+        width: 8%;
+    }
+
+    /* title */
+
+    h1.display-5.mb-5 {
+        font-size: 2rem;
+    }
+
+    /* quizz cards */
+    div.card.quizzCards div.card-body.text-center {
+        font-size: 1.15rem
+    }
+
+    div.row.quizzesInfo div.card-deck.mx-auto div.card.quizzInfoCards {
+        font-size: 1.15rem;
+    }
+
+    /** QUIZZ PAGES (CONTINENT) */
+    div.container-fluid.quizzesCards div.card-deck.mx-auto div.card.quizzesCards div.card-body.text-center {
+        background-color: #4AB71B;
+        font-size: 1.15rem;
+        color: #ffffff;
+    }
+
+    div.row.quizzesInfo div.card-deck.mx-auto.mt-5.mb-5 div.card.quizzInfoCards.ml-5.mr-5 {
+        font-size: 1.15rem;
+    }
+
+    /*img inside this pages  */
+    div.col-12.text-center.quizzes img.mt-5.mb-2 {
+        width: 8%;
+    }
+
+    /**QUIZZ LEVELS*/
+    div.col-lg-12.text-center.quizzesLevel.mt-5.mb-5 h1 {
+        font-size: 2rem;
+    }
+
+    div.col-12.text-center.quizzesTable h1.display-5.mt-5.mb-5 {
+        font-size: 2rem;
+    }
+
+    /** SUGESTION PAGE */
+    /* ! SUGGESTIONS + HEADER CONTAINER*/
+    div.container-fluid.suggestions div.col-lg-12.col-md-12.col-sm-12.col-12.text-center.suggestion h1 {
+        font-size: 1.7rem;
+    }
+
+    /*!SUGESTION + HEADER CONTAINER IMG */
+    div.container-fluid.suggestions div.col-lg-12.col-md-12.col-sm-12.col-12.text-center.suggestion img.mt-5.mb-2 {
+        width: 9%;
+    }
+
+    /* !SUGGESTION-CARDS (HIGHTLIGHTS) */
+    div.card.suggestionCards {
+        font-size: 1.15rem;
+    }
+
+    /* !TABLE HEADER TITLE */
+    div.col-12.text-center.suggestionTableHeader h1 {
+        font-size: 1.7rem;
+    }
+
+    /* ! SUGESTION TABLE FILTER*/
+    /* div.container-fluid.tableInsideSugestions label {
+        font-size: 1.5rem;
+    } */
+    /* ?THIS MAY WORK FOR ALL FILTERS  FOR THE TABLES*/
+    /* select#stlOrder {
+        font-size: 1.3rem;
+    }
+
+    select#stlOrder option {
+        font-size: 1rem;
+    } */
+    /* ! TABLE READ BUTTON -SUGGESTION TABLE*/
+    button.btn.btn-success.read {
+        font-size: 1.1rem;
+    }
+
+    /* !TABLE TEXT*/
+    table.table.table-bordered.mx-auto {
+        font-size: 1.4rem
+    }
+
+    /*!TABLE DELETE BUTTON IMG*/
+    table.table.table-bordered.mx-auto img {
+        width: 29%
+    }
+
+    /**USER PAGE*/
+    /* ! USER + HEADER CONTAINER*/
+    div.col-12.text-center.users.pb-5.pt-5 h1 {
+        font-size: 1.7rem;
+    }
+
+    /*!USER+HEADER CONTAINER IMG */
+    div.col-12.text-center.users.pb-5.pt-5 img {
+        width: 10%;
+    }
+
+    /* !USER-CARDS (HIGHTLIGHTS) */
+    div.card.userCards {
+        font-size: 1.15rem;
+    }
+
+    /* !TABLE HEADER TITLE */
+    div.container-fluid.users div.row.userHeader div.col-lg-12 h1 {
+        font-weight: 500;
+        font-size: 1.7rem;
+    }
+
+    /* !TABLE FILTER*/
+    div.container-fluid.userFilter form label {
+        font-size: 1.2rem;
+    }
+
+    /* ?THIS MAY WORK FOR ALL FILTERS  FOR THE TABLES*/
+    /* select#stlOrder {
+        font-size: 1.3rem;
+    }*/
+    div.container-fluid.userFilter form select#stlOrder option {
+        font-size: 0.9rem;
+    }
+
+    /* !TABLE TEXT*/
+    table.table.table-bordered {
+        font-size: 1.3rem
+    }
+
+    /*!TABLE DELETE BUTTON IMG*/
+    table.table.table-bordered img {
+        width: 40%
+    }
+
+
+
+
+    /**CATALOG PAGE*/
+    /* ! CATALOG + HEADER CONTAINER*/
+    div.row div.col-12.text-center.catalog h1 {
+        font-size: 1.7rem;
+    }
+
+    /*!CATALOG+HEADER CONTAINER IMG */
+    div.row div.col-12.text-center.catalog img {
+        width: 7%;
+    }
+
+    /* !CATALOG-CARDS (HIGHTLIGHTS) */
+    div.card.catalogCards div.card-body.text-center {
+        font-size: 1.15rem;
+    }
+
+    /* !TABLE HEADER TITLE */
+    div.col-12.text-center.catalogTable h1 {
+        font-weight: 500;
+        font-size: 1.7rem;
+    }
+
+    /* !TABLE FILTER*/
+    /* div.col-12.text-center.catalogTable form label {
+    font-size: 0.rem;
+} */
+    /* ?THIS MAY WORK FOR ALL FILTERS  FOR THE TABLES*/
+    /* select#stlOrder {
+    font-size: 1.3rem;
+}*/
+    /* div.col-12.text-center.catalogTable form select#stlOrder option{
+    font-size: 0.9rem;
+} */
+    /* !TABLE TEXT*/
+    table.table.table-bordered.mx-auto.catalogTable {
+        font-size: 1.2rem
+    }
+
+    /*!TABLE BUTTON IMG*/
+    table.table.table-bordered.mx-auto.catalogTable img {
+        width: 35px
+    }
+
+}
+
+/* !SMALL PHONES FOCUS*/
+@media screen and (max-width: 376px) {
+
+    /**NAVBAR */
+    .nav-link {
+        font-size: 1.1rem;
+    }
+
+    li.nav-item {
+        padding-left: 0%;
+    }
+
+    /* title and title img */
+    div.row div.col-12.quizzes img {
+        width: 55px;
+    }
+
+    /* title img quizz*/
+    div.row div.col-12.text-center.quizzes img {
+        width: 55px;
+    }
+
+    h1.display-5.mb-5 {
+        font-size: 2.5rem;
+    }
+
+    /** QUIZZ PAGE CARDS */
+    div.card.quizzCards div.card-body.text-center {
+        font-size: 1.2rem
+    }
+
+    div.row.quizzesInfo div.card-deck.mx-auto div.card.quizzInfoCards {
+        font-size: 1.1rem;
+    }
+
+    /** QUIZZ PAGES ( INSIDE CONTINENT) */
+    div.container-fluid.quizzesCards div.card-deck.mx-auto div.card.quizzesCards div.card-body.text-center {
+        background-color: #4AB71B;
+        font-size: 1.2rem;
+        color: #ffffff;
+    }
+
+    div.row.quizzesInfo div.card-deck.mx-auto.mt-5.mb-5 div.card.quizzInfoCards.ml-5.mr-5 {
+        font-size: 1.1rem;
+    }
+
+    /*img inside this pages  */
+    div.col-12.text-center.quizzes img.mt-5.mb-2 {
+        width: 55px;
+    }
+
+    /**QUIZZ LEVELS*/
+    div.col-lg-12.text-center.quizzesLevel.mt-5.mb-5 h1 {
+        font-size: 1.9rem;
+    }
+
+    div.col-12.text-center.quizzesTable h1.display-5.mt-5.mb-5 {
+        font-size: 1.9rem;
+    }
+
+    div.row.quizzesInfo button.btn.addLevelBtn.mx-auto.mb-5 {
+        margin-top: 5%;
+        font-size: 1.2rem;
+    }
+
+    /** SUGESTION PAGE */
+    /* ! SUGGESTIONS + HEADER CONTAINER*/
+    div.container-fluid.suggestions div.col-lg-12.col-md-12.col-sm-12.col-12.text-center.suggestion h1 {
+        font-size: 2rem;
+    }
+
+    /*!SUGESTION + HEADER CONTAINER IMG */
+    div.container-fluid.suggestions div.col-lg-12.col-md-12.col-sm-12.col-12.text-center.suggestion img.mt-5.mb-2 {
+        width: 19%;
+    }
+
+    /* !SUGGESTION-CARDS (HIGHTLIGHTS) */
+    div.card.suggestionCards {
+        font-size: 1.15rem;
+    }
+
+    /* img.userImage{
+        width: 0%
+    } */
+    /* !TABLE HEADER TITLE */
+    div.col-12.text-center.suggestionTableHeader h1 {
+        font-size: 2rem;
+    }
+
+    /* ! SUGESTION TABLE FILTER*/
+    /*\ div.container-fluid.tableInsideSugestions label {
+        font-size: 1.5rem;
+    } */
+    /* ?THIS MAY WORK FOR ALL FILTERS  FOR THE TABLES*/
+    /* select#stlOrder {
+        font-size: 1.3rem;
+    }
+
+    select#stlOrder option {
+        font-size: 1rem;
+    } */
+    /**SUGESTION TABLE */
+    /* ! TABLE READ BUTTON -SUGGESTION TABLE*/
+    button.btn.btn-success.read {
+        font-size: 0.9rem;
+    }
+
+    /* !TABLE TEXT*/
+    table.table.table-bordered.mx-auto {
+        font-size: 1.2rem
+    }
+
+    /*!TABLE DELETE BUTTON IMG*/
+    table.table.table-bordered.mx-auto img {
+        width: 42%
+    }
+
+    /**USER PAGE */
+    /* ! USER + HEADER CONTAINER*/
+    div.col-12.text-center.users.pb-5.pt-5 h1 {
+        font-size: 2rem;
+    }
+
+    /*!USER+HEADER CONTAINER IMG */
+    div.col-12.text-center.users.pb-5.pt-5 img {
+        width: 20%;
+    }
+
+    /* !USER-CARDS (HIGHTLIGHTS) */
+    div.card.userCards {
+        font-size: 1.15rem;
+    }
+
+    /* !TABLE HEADER TITLE */
+    div.container-fluid.users div.row.userHeader div.col-lg-12 h1 {
+        font-weight: 500;
+        font-size: 2rem;
+    }
+
+    /* !TABLE FILTER*/
+    div.container-fluid.userFilter form label {
+        font-size: 1.2rem;
+    }
+
+    /* ?THIS MAY WORK FOR ALL FILTERS  FOR THE TABLES*/
+    /* select#stlOrder {
+    font-size: 1.3rem;
+    }*/
+    div.container-fluid.userFilter form select#stlOrder option {
+        font-size: 0.7rem;
+    }
+
+    /* !TABLE TEXT*/
+    table.table.table-bordered {
+        font-size: 1.2rem
+    }
+
+    /*!TABLE DELETE BUTTON IMG*/
+    table.table.table-bordered img {
+        width: 42%
+    }
+
+
+    /**CATALOG PAGE*/
+    /* ! CATALOG + HEADER CONTAINER*/
+    div.row div.col-12.text-center.catalog h1 {
+        font-size: 2rem;
+    }
+
+    /*!CATALOG+HEADER CONTAINER IMG */
+    div.row div.col-12.text-center.catalog img {
+        width: 14%;
+    }
+
+    /* !CATALOG-CARDS (HIGHTLIGHTS) */
+    div.card.catalogCards div.card-body.text-center {
+        font-size: 1.15rem;
+    }
+
+    /* !TABLE HEADER TITLE */
+    div.col-12.text-center.catalogTable h1 {
+        font-weight: 500;
+        font-size: 2rem;
+    }
+
+    /* !TABLE FILTER*/
+    /* div.col-12.text-center.catalogTable form label {
+    font-size: 0.rem;
+} */
+    /* ?THIS MAY WORK FOR ALL FILTERS  FOR THE TABLES*/
+    /* select#stlOrder {
+    font-size: 1.3rem;
+}*/
+    /* div.col-12.text-center.catalogTable form select#stlOrder option{
+    font-size: 0.9rem;
+} */
+    /* !TABLE TEXT*/
+    table.table.table-bordered.mx-auto.catalogTable {
+        font-size: 1.2rem
+    }
+
+    /*!TABLE BUTTON IMG*/
+    table.table.table-bordered.mx-auto.catalogTable img {
+        width: 35px
+    }
+}
+
+/* !Iphone 6,8,9 */
+@media only screen and (max-width: 411px) and (min-width: 370px) {
+
+    .nav-link {
+        font-size: 1.2rem;
+
+    }
+
+    li.nav-item {
+        padding-left: 0%;
+    }
+
+    /* title and title img */
+    div.row div.col-12.quizzes img {
+        width: 8%;
+    }
+
+    h1.display-5.mb-5 {
+        font-size: 2rem;
+    }
+
+    /* quizz cards */
+    div.card.quizzCards div.card-body.text-center {
+        font-size: 1.15rem
+    }
+
+    div.row.quizzesInfo div.card-deck.mx-auto div.card.quizzInfoCards {
+        font-size: 1.15rem;
+    }
+
+    /**QUIZZ LEVELS*/
+    div.col-lg-12.text-center.quizzesLevel.mt-5.mb-5 h1 {
+        font-size: 1.8rem;
+    }
+
+    div.col-12.text-center.quizzesTable h1.display-5.mt-5.mb-5 {
+        font-size: 1.8rem;
+    }
+
+    div.row.quizzesInfo button.btn.addLevelBtn.mx-auto.mb-5 {
+        margin-top: 5%;
+        font-size: 1.2rem;
+    }
+
+    /** SUGESTION PAGE */
+    /* ! SUGGESTIONS + HEADER CONTAINER*/
+    div.container-fluid.suggestions div.col-lg-12.col-md-12.col-sm-12.col-12.text-center.suggestion h1 {
+        font-size: 2rem;
+    }
+
+    /*!SUGESTION + HEADER CONTAINER IMG */
+    div.container-fluid.suggestions div.col-lg-12.col-md-12.col-sm-12.col-12.text-center.suggestion img.mt-5.mb-2 {
+        width: 18%;
+    }
+
+    /* !SUGGESTION-CARDS (HIGHTLIGHTS) */
+    div.card.suggestionCards {
+        font-size: 1.15rem;
+    }
+
+    /* img.userImage{
+        width: 0%
+    } */
+    /* !TABLE HEADER TITLE */
+    div.col-12.text-center.suggestionTableHeader h1 {
+        font-size: 2rem;
+    }
+
+    /* ! SUGESTION TABLE FILTER*/
+    /* div.container-fluid.tableInsideSugestions label {
+        font-size: 1.5rem;
+    } */
+    /* ?THIS MAY WORK FOR ALL FILTERS  FOR THE TABLES*/
+    /* select#stlOrder {
+        font-size: 1.3rem;
+    }
+
+    select#stlOrder option {
+        font-size: 1rem;
+    } */
+    /**SUGESTION TABLE */
+    /* ! TABLE READ BUTTON -SUGGESTION TABLE*/
+    button.btn.btn-success.read {
+        font-size: 0.9rem;
+    }
+
+    /* !TABLE TEXT*/
+    table.table.table-bordered.mx-auto {
+        font-size: 1.2rem
+    }
+
+    /*!TABLE DELETE BUTTON IMG*/
+    table.table.table-bordered.mx-auto img {
+        width: 42%
+    }
+
+    /**USER PAGE */
+    /* ! USER + HEADER CONTAINER*/
+    div.col-12.text-center.users.pb-5.pt-5 h1 {
+        font-size: 2rem;
+    }
+
+    /*!USER+HEADER CONTAINER IMG */
+    div.col-12.text-center.users.pb-5.pt-5 img {
+        width: 20%;
+    }
+
+    /* !USER-CARDS (HIGHTLIGHTS) */
+    div.card.userCards {
+        font-size: 1.15rem;
+    }
+
+    /* !TABLE HEADER TITLE */
+    div.container-fluid.users div.row.userHeader div.col-lg-12 h1 {
+        font-weight: 500;
+        font-size: 2rem;
+    }
+
+    /* !TABLE FILTER*/
+    div.container-fluid.userFilter form label {
+        font-size: 1.2rem;
+    }
+
+    /* ?THIS MAY WORK FOR ALL FILTERS  FOR THE TABLES*/
+    /* select#stlOrder {
+    font-size: 1.3rem;
+    }*/
+    div.container-fluid.userFilter form select#stlOrder option {
+        font-size: 0.7rem;
+    }
+
+    /* !TABLE TEXT*/
+    table.table.table-bordered {
+        font-size: 1.2rem
+    }
+
+    /*!TABLE DELETE BUTTON IMG*/
+    table.table.table-bordered img {
+        width: 42%
+    }
+
+
+    /**CATALOG PAGE*/
+    /* ! CATALOG + HEADER CONTAINER*/
+    div.row div.col-12.text-center.catalog h1 {
+        font-size: 2rem;
+    }
+
+    /*!CATALOG+HEADER CONTAINER IMG */
+    div.row div.col-12.text-center.catalog img {
+        width: 15%;
+    }
+
+    /* !CATALOG-CARDS (HIGHTLIGHTS) */
+    div.card.catalogCards div.card-body.text-center {
+        font-size: 1.15rem;
+    }
+
+    /* !TABLE HEADER TITLE */
+    div.col-12.text-center.catalogTable h1 {
+        font-weight: 500;
+        font-size: 2rem;
+    }
+
+    /* !TABLE FILTER*/
+    /* div.col-12.text-center.catalogTable form label {
+        font-size: 0.rem;
+    } */
+    /* ?THIS MAY WORK FOR ALL FILTERS  FOR THE TABLES*/
+    /* select#stlOrder {
+        font-size: 1.3rem;
+    }*/
+    /* div.col-12.text-center.catalogTable form select#stlOrder option{
+        font-size: 0.9rem;
+    } */
+    /* !TABLE TEXT*/
+    table.table.table-bordered.mx-auto.catalogTable {
+        font-size: 1.2rem
+    }
+
+    /*!TABLE BUTTON IMG*/
+    table.table.table-bordered.mx-auto.catalogTable img {
+        width: 35px
+    }
+}
+
+
+/* !PIXEL & IPHONE PLUS*/
+@media only screen and (max-width: 415px) and (min-width: 411px) {
+
+    /* Navbar adjustment */
+    .nav-link {
+        font-size: 1rem;
+        white-space: nowrap;
+    }
+
+    /** QUIZZ PAGE CARDS */
+    div.row div.col-12.quizzes img {
+        width: 6%;
+    }
+
+    div.row div.col-12.text-center.quizzes img {
+        width: 12%;
+    }
+
+    h1.display-5.mb-5 {
+        font-size: 2rem;
+    }
+
+    /** QUIZZ PAGES (CONTINENT) */
+    /*img inside this pages  */
+    div.col-12.text-center.quizzes img.mt-5.mb-2 {
+        width: 12%;
+    }
+
+    /**QUIZZ LEVELS*/
+    div.col-lg-12.text-center.quizzesLevel.mt-5.mb-5 h1 {
+        font-size: 1.7rem;
+    }
+
+    div.col-12.text-center.quizzesTable h1.display-5.mt-5.mb-5 {
+        font-size: 1.7rem;
+    }
+
+    div.row.quizzesInfo button.btn.addLevelBtn.mx-auto.mb-5 {
+        margin-top: 5%;
+        font-size: 1.2rem;
+    }
+
+    /** SUGESTION PAGE */
+    /* ! SUGGESTIONS + HEADER CONTAINER*/
+    div.container-fluid.suggestions div.col-lg-12.col-md-12.col-sm-12.col-12.text-center.suggestion h1 {
+        font-size: 2rem;
+    }
+
+    /*!SUGESTION + HEADER CONTAINER IMG */
+    div.container-fluid.suggestions div.col-lg-12.col-md-12.col-sm-12.col-12.text-center.suggestion img.mt-5.mb-2 {
+        width: 19%;
+    }
+
+    /* !SUGGESTION-CARDS (HIGHTLIGHTS) */
+    div.card.suggestionCards {
+        font-size: 1.15rem;
+    }
+
+    /* img.userImage{
+        width: 0%
+    } */
+    /* !TABLE HEADER TITLE */
+    div.col-12.text-center.suggestionTableHeader h1 {
+        font-size: 2rem;
+    }
+
+    /* ! SUGESTION TABLE FILTER*/
+    /* div.container-fluid.tableInsideSugestions label {
+        font-size: 1.5rem;
+    } */
+    /* ?THIS MAY WORK FOR ALL FILTERS  FOR THE TABLES*/
+    /* select#stlOrder {
+        font-size: 1.3rem;
+    }
+    select#stlOrder option {
+        font-size: 1rem;
+    } */
+    /**SUGESTION TABLE */
+    /* ! TABLE READ BUTTON -SUGGESTION TABLE*/
+    button.btn.btn-success.read {
+        font-size: 0.9rem;
+    }
+
+    /* !TABLE TEXT*/
+    table.table.table-bordered.mx-auto {
+        font-size: 1.2rem
+    }
+
+    /*!TABLE DELETE BUTTON IMG*/
+    table.table.table-bordered.mx-auto img {
+        width: 42%
+    }
+
+
+    /**USER PAGE */
+    /* ! USER + HEADER CONTAINER*/
+    div.col-12.text-center.users.pb-5.pt-5 h1 {
+        font-size: 2rem;
+    }
+
+    /*!USER+HEADER CONTAINER IMG */
+    div.col-12.text-center.users.pb-5.pt-5 img {
+        width: 20%;
+    }
+
+    /* !USER-CARDS (HIGHTLIGHTS) */
+    div.card.userCards {
+        font-size: 1.15rem;
+    }
+
+    /* !TABLE HEADER TITLE */
+    div.container-fluid.users div.row.userHeader div.col-lg-12 h1 {
+        font-weight: 500;
+        font-size: 2rem;
+    }
+
+    /* !TABLE FILTER*/
+    div.container-fluid.userFilter form label {
+        font-size: 1.2rem;
+    }
+
+    /* ?THIS MAY WORK FOR ALL FILTERS  FOR THE TABLES*/
+    /* select#stlOrder {
+    font-size: 1.3rem;
+    }*/
+    div.container-fluid.userFilter form select#stlOrder option {
+        font-size: 0.7rem;
+    }
+
+    /* !TABLE TEXT*/
+    table.table.table-bordered {
+        font-size: 1.2rem
+    }
+
+    /*!TABLE DELETE BUTTON IMG*/
+    table.table.table-bordered img {
+        width: 42%
+    }
+
+    /**CATALOG PAGE*/
+    /* ! CATALOG + HEADER CONTAINER*/
+    div.row div.col-12.text-center.catalog h1 {
+        font-size: 2rem;
+    }
+
+    /*!CATALOG+HEADER CONTAINER IMG */
+    div.row div.col-12.text-center.catalog img {
+        width: 14%;
+    }
+
+    /* !CATALOG-CARDS (HIGHTLIGHTS) */
+    div.card.catalogCards div.card-body.text-center {
+        font-size: 1.15rem;
+    }
+
+    /* !TABLE HEADER TITLE */
+    div.col-12.text-center.catalogTable h1 {
+        font-weight: 500;
+        font-size: 2rem;
+    }
+
+    /* !TABLE FILTER*/
+    /* div.col-12.text-center.catalogTable form label {
+        font-size: 0.rem;
+    } */
+    /* ?THIS MAY WORK FOR ALL FILTERS  FOR THE TABLES*/
+    /* select#stlOrder {
+        font-size: 1.3rem;
+    }*/
+    /* div.col-12.text-center.catalogTable form select#stlOrder option{
+        font-size: 0.9rem;
+    } */
+    /* !TABLE TEXT*/
+    table.table.table-bordered.mx-auto.catalogTable {
+        font-size: 1.2rem
+    }
+
+    /*!TABLE BUTTON IMG*/
+    table.table.table-bordered.mx-auto.catalogTable img {
+        width: 35px
+    }
+}
+
+
+#btnContinentFilterTable{
+    border: 2px solid #ffffff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #ffffff;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    transition: all .2s ease-in-out;
+    margin-left: 3rem;
+}
+
+#btnContinentFilterTable:focus {
+    box-shadow: 0 0 0 0;
+}
+
+#btnContinentFilterTable:hover {
+    color: #ffffff;
+    transform: scale(1.1, 1.1);
+}
+
+
+#btnQuizzFilterTable {
+    border: 2px solid #ffffff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #ffffff;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    transition: all .2s ease-in-out;
+    margin-left: 3rem;
+}
+
+#btnQuizzFilterTable:focus {
+    box-shadow: 0 0 0 0
+}
+
+#btnQuizzFilterTable:hover {
+    transform: scale(1.1, 1.1);
+}

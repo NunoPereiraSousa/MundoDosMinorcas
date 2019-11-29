@@ -1,0 +1,2052 @@
+body {
+    font-family: Mali;
+    overflow-x: hidden;
+}
+
+body.africa {
+    background-color: #F5BB00;
+}
+
+body.america {
+    background-color: #4AB71B;
+}
+
+body.asia {
+    background-color: #BE3DE3;
+}
+
+body.europa {
+    background-color: #204987;
+}
+
+body.oceania {
+    background-color: #B7541B;
+}
+
+body.Africa {
+    background-color: #F5BB00;
+}
+
+body.America {
+    background-color: #4AB71B;
+}
+
+body.Asia {
+    background-color: #BE3DE3;
+}
+
+body.Europa {
+    background-color: #204987;
+}
+
+body.Oceania {
+    background-color: #B7541B;
+}
+
+
+
+.logo {
+    width: 120px;
+    height: 80px;
+}
+
+.avatar {
+    width: 50px;
+    height: 50px;
+}
+
+.navbar {
+    background-color: #29abe2;
+}
+
+.navbar-brand {
+    margin: 0%;
+}
+
+.nav-link {
+    font-size: 1.3rem;
+}
+
+.nav-item {
+    padding-right: 35px;
+    padding-left: 35px;
+}
+
+ul.navbar-nav.ml-auto li a.nav-link {
+    color: #ffffff;
+    transition: all .2s ease-in-out;
+}
+
+ul.navbar-nav.ml-auto li a.nav-link:hover {
+    color: #CCCC33;
+    transform: scale(1.2, 1.2)
+}
+
+li.nav-item.line {
+    border-right: 2px solid #CCCC33;
+}
+
+div.dropdown-menu {
+    background-color: #29ABE2;
+    border: 0;
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+.dropdown-menu a.dropdown-item {
+    color: #ffffff;
+    font-size: 24px;
+}
+
+.dropdown-menu a.dropdown-item:hover {
+    color: #CCCC33;
+    background-color: #29ABE2;
+}
+
+@media screen and (max-width: 375px) {
+    li.nav-item.line {
+        border-right: 0px;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    li.nav-item.line {
+        border-right: 0px;
+    }
+}
+
+/* ! HEADER */
+
+div.row div.col-12.catalog {
+    color: #204987;
+}
+
+div.row div.col-12.catalog h1 {
+    font-size: 2rem;
+}
+
+div.row div.col-12.catalog span {
+    color: #ffffff;
+}
+
+div.row div.col-12.catalog img {
+    width: 5%;
+}
+
+/* ?????? */
+div.row div.col-lg-6 h1.display-4 {
+    margin-top: 4%;
+}
+
+div.row div.col-lg-6 h1.display-4 span {
+    color: #ffffff;
+}
+
+div.row div.col-lg-6.text-left {
+    padding: 0;
+}
+
+div.row div.col-lg-6.text-right {
+    padding: 0;
+}
+
+div .item {
+    padding-top: 10%;
+}
+
+/* ! NAVBAR QUIZZES */
+
+div.quizContainer {
+    padding-bottom: 3.1rem;
+    padding-top: 3.2rem;
+}
+
+div.container-fluid.navQuizz {
+    background-color: #29ABE2;
+}
+
+div.currentLevels {
+    background-color: #CCCC33;
+}
+
+img.logo.logoQuizz {
+    margin-top: 7%;
+    margin-bottom: 7%;
+}
+
+div.col-lg-6.flagInfoText p {
+    color: #ffffff;
+    font-size: 22px;
+    margin-bottom: 0;
+    margin: auto;
+}
+
+@media only screen and (max-width: 767px) {
+    div.col-lg-6.logoNavQuizz {
+        padding-left: 35%
+    }
+}
+
+/* @media only screen and (max-width: 768px) {
+    div.col-lg-6.logoNavQuizz{
+     padding-left: 40%
+    }
+} */
+
+/* ! Question QUIZZ */
+
+div.container-fluid.questionContainer {
+    background-color: #29abe2;
+    color: #ffffff;
+    font-size: 24px;
+    border-top: 2px solid #ffffff;
+}
+
+div.row div.col-12.text-center.question p {
+    margin: 2%;
+}
+
+div.row.questionImage div.col-lg-6 img.flagImage {
+    width: 44%;
+    margin: auto;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.levelSelection {
+    background-color: #29ABE2;
+    color: #ffffff;
+}
+
+/* 
+div.col-lg-6.optionsCol {
+    padding-top: 1%;
+    padding-bottom: 1%;
+} */
+
+div.row.optionsRow button.btn {
+    width: 40%;
+    margin: 2%;
+    border: 1px solid #29ABE2;
+    border-radius: 8px;
+    background-color: #29ABE2;
+    color: #ffffff
+}
+
+@media only screen and (max-width: 768px) {
+    div.row.questionImage div.col-lg-6 img.flagImage {
+        width: 44%;
+        margin-top: 4%;
+        border-radius: 20px 20px 20px 20px;
+    }
+}
+
+
+body#quizzBody {
+    background-color: #EEEBD0;
+    overflow: hidden;
+}
+
+/* !BUTTON HELP AND EXIT QUIZZ */
+
+div.container-fluid.exitHelp {
+    background-color: #29ABE2;
+    border: 2px solid #CCCC33;
+}
+
+button.btn.exit {
+    background-color: #CF2027;
+    color: #ffffff;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 7rem;
+    height: 3.5rem;
+    font-size: 24px;
+}
+
+button.btn.help {
+    background-color: #CCCC33;
+    color: #ffffff;
+    margin-top: 2%;
+    margin-bottom: 2%;
+    width: 7rem;
+    height: 3.5rem;
+    font-size: 24px;
+}
+
+@media only screen and (max-width:412px) {
+    button.btn.help {
+        background-color: #CCCC33;
+        color: #ffffff;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 7rem;
+        height: 2.5rem;
+        font-size: 16px;
+    }
+
+    button.btn.exit {
+        background-color: #CF2027;
+        color: #ffffff;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        width: 7rem;
+        height: 2.5rem;
+        font-size: 16px;
+    }
+}
+
+/* !JUMBOTRON FILTER */
+
+div.jumbotron.filter {
+    background-color: rgb(39, 169, 225, .9);
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+div.form-group.selection>label {
+    padding-right: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #ffffff
+}
+
+div.form-group.name label {
+    padding-right: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #ffffff
+}
+
+button#btnFilter {
+    border: 2px solid #ffffff;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: #ffffff;
+    padding-right: 2.5rem;
+    padding-left: 2.5rem;
+    transition: all .2s ease-in-out;
+}
+
+button#btnFilter:focus {
+    box-shadow: 0 0 0 0;
+}
+
+button#btnFilter:hover {
+    transform: scale(1.1, 1.1)
+}
+
+select.form-control {
+    background-color: #ffffff;
+}
+
+select.form-control:focus {
+    box-shadow: 0 0 0 0;
+}
+
+select>option.optionStyle {
+    color: #204987;
+}
+
+#prev {
+    background-color: #CCCC33;
+    color: #ffffff;
+}
+
+#prev:hover {
+    background-color: rgb(204, 204, 51, .5);
+    color: #ffffff;
+}
+
+#next {
+    background-color: #CCCC33;
+    color: #ffffff;
+}
+
+#next:hover {
+    background-color: rgb(204, 204, 51, .5);
+    color: #ffffff;
+}
+
+.page-link {
+    background-color: #CCCC33;
+    color: #ffffff;
+}
+
+.page-link:hover {
+    background-color: rgb(204, 204, 51, .5);
+    color: #ffffff;
+}
+
+@media only screen and (max-width:415px) {
+    div.form-group.selection label {
+        padding-right: 100px;
+    }
+
+    div.form-group.selection {
+        padding-left: 3%
+    }
+
+    div.form-group.name label {
+        padding-right: 110px;
+    }
+
+    div.form-group.name {
+        padding-left: 0%;
+    }
+
+    input #txtName.form-control.m-2 {
+        margin-left: 0%
+    }
+
+    button.btn.filterCountry {
+        margin-left: 10px;
+        margin-bottom: 2rem;
+        border: 1px solid #29ABE2;
+    }
+}
+
+@media only screen and (max-width: 769px) and (min-width: 767px) {
+    div.form-group.selection label {
+        margin-right: 32px;
+    }
+
+    button.btn.btn-primary.filterCountry {
+        margin-top: 1px;
+    }
+}
+
+div.jumbotron.jumbotron-fluid.africaJumbo {
+    background-color: #F5BB00
+}
+
+/* ! CONTINENT CARDS */
+div.card {
+    margin: auto;
+    border: 4px solid #29ABE2;
+}
+
+div img.card-img-top {
+    padding-top: 5%;
+    padding-bottom: 5%;
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+div.card.africa {
+    background-color: #E1B638;
+    transition: all .2s ease-in-out;
+}
+
+div.card.africa:hover {
+    transform: rotate(5deg);
+}
+
+div.card.america {
+    background-color: #376F21;
+    transition: all .2s ease-in-out;
+}
+
+div.card.america:hover {
+    transform: rotate(5deg);
+}
+
+div.card.asia {
+    background-color: #BE3DE3;
+    transition: all .2s ease-in-out;
+}
+
+div.card.asia:hover {
+    transform: rotate(5deg);
+}
+
+div.card.europa {
+    background-color: #204987;
+    transition: all .2s ease-in-out;
+}
+
+div.card.europa:hover {
+    transform: rotate(5deg);
+}
+
+div.card.oceania {
+    background-color: #BF3100;
+    transition: all .2s ease-in-out;
+}
+
+div.card.oceania:hover {
+    transform: rotate(5deg);
+}
+
+div.card-header.text-center {
+    font-size: 28px;
+    color: #ffffff;
+}
+
+div.card-body {
+    background-color: #ffffff;
+    border-radius: 0px 0px 5px 5px;
+    margin: auto;
+}
+
+div.card.africa div.card-body p {
+    color: #E1B638
+}
+
+div.card.america div.card-body p {
+    color: #376F21
+}
+
+div.card.asia div.card-body p {
+    color: #BE3DE3
+}
+
+div.card.europa div.card-body p {
+    color: #204987
+}
+
+div.card.oceania div.card-body p {
+    color: #BF3100
+}
+
+button.btn.quizzesBtn {
+    background-color: transparent;
+}
+
+button.btn.quizzesBtn:focus {
+    box-shadow: 0 0 0 0;
+}
+
+/* ! RATING BUTTONS */
+
+.star {
+    padding: 0;
+    border-bottom: 0;
+}
+
+.star:focus {
+    box-shadow: 0 0 0 0;
+}
+
+/* ! AFRICAN CARDS */
+
+div.card.africanCards {
+    margin-top: 3%;
+    margin-bottom: 5%;
+    transition: all .2s ease-in-out;
+    width: 18rem;
+}
+
+div.card.africanCards:hover {
+    transform: rotate(5deg);
+}
+
+div.card.africanCards div.card-body {
+    margin-left: 0;
+}
+
+div.card.africanCards img.card-img-top {
+    padding: 0;
+    border-radius: 0px 0px 0px 0px;
+}
+
+div.card.africanCards div.card-body p.card-text.paragraph {
+    padding-bottom: 3px;
+    font-weight: 700;
+}
+
+div.card.africanCards div.card-body p.card-text.paragraph span {
+    font-weight: normal;
+}
+
+div.card.africanCards div.card-body span {
+    border-bottom: 1px solid black;
+}
+
+button.btn.countryButton {
+    background-color: transparent;
+    padding: .200rem;
+    margin: 0;
+}
+
+button.btn.countryButton:focus {
+    box-shadow: 0 0 0 0;
+}
+
+div.row div.col-lg-6.imgInfo img.map {
+    width: 13rem;
+}
+
+div.row div.col-lg-6.imgInfo img.caption {
+    width: 8rem;
+    margin-top: 2rem;
+}
+
+div.row div.col-12.imgInfo {
+    margin: auto;
+}
+
+div.modal-content {
+    background-color: #29ABE2;
+}
+
+div.infoParagraph>p {
+    color: white;
+    font-weight: 500;
+}
+
+div p#infoInfo {
+    word-break: break-all;
+}
+
+div.form-group>label.modalLabel {
+    color: #ffffff;
+    font-size: 1.3rem;
+    font-weight: 500;
+}
+
+p.lead.commentTitle {
+    color: #ffffff;
+    margin-bottom: .7rem;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+p.lead.informationTitle {
+    color: #ffffff;
+    margin-bottom: .7rem;
+    font-weight: 500;
+    text-decoration: underline;
+}
+
+div.commentContainer {
+    border: 2px solid #29ABE2;
+    background-color: #29ABE2;
+    border-radius: 5px;
+    width: 20rem;
+    height: 15rem;
+    overflow: auto;
+    color: #ffffff;
+}
+
+#infoInfo {
+    background-color: #29ABE2;
+    border-radius: 5px;
+    width: 20rem;
+    height: 15rem;
+    color: #ffffff;
+}
+
+/* width */
+::-webkit-scrollbar {
+    width: 20px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+    box-shadow: inset 0 0 0 0;
+    border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #CCCC33;
+    border-radius: 5px;
+}
+
+button.translateBtn {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1.1rem;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    transition: all .4s ease-in-out;
+}
+
+button.commentBtn {
+    color: #ffffff;
+    font-weight: 500;
+    font-size: 1.1rem;
+    background-color: transparent;
+    border: 2px solid #ffffff;
+    transition: all .4s ease-in-out;
+}
+
+button.translateBtn:focus {
+    box-shadow: 0 0 0 0;
+}
+
+button.commentBtn:focus {
+    box-shadow: 0 0 0 0;
+}
+
+button.translateBtn:hover {
+    transform: scale(1.1, 1.1);
+    color: #ffffff;
+}
+
+button.commentBtn:hover {
+    transform: scale(1.1, 1.1);
+    color: #ffffff;
+}
+
+/* ! INFO COUNTRY PAGE
+div.col-lg-6.infoParagraphImg {
+    padding-top: 3%;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+}
+
+div.col-lg-6.infoParagraphCarousel {
+    padding-top: 3%;
+    padding-right: 10%;
+    padding-bottom: 5%;
+    padding-left: 10%;
+    background-color: #29ABE2;
+    color: #ffffff;
+} */
+
+/*!QUIZZ CARDS*/
+
+div.card.quizzCards {
+    margin-top: 10%;
+    margin-bottom: 10%;
+    border: 4px solid #29ABE2;
+}
+
+div.container-fluid.quizzCardsContainer {
+    margin-top: 3%;
+    margin-bottom: 5%
+}
+
+/* .stars-outer {
+    display: inline-block;
+    position: relative;
+    font-family: FontAwesome;
+}
+
+.stars-outer::before {
+    content: "\f006 \f006 \f006 \f006 \f006";
+    color: #f8ce0b;
+}
+
+.stars-inner {
+    position: absolute;
+    top: 0;
+    left: 0;
+    white-space: nowrap;
+    overflow: hidden;
+    width: 0;
+}
+
+.stars-inner::before {
+    content: "\f005 \f005 \f005 \f005 \f005";
+    color: #f8ce0b;
+} */
+
+.star {
+    color: goldenrod;
+    font-size: 2.0rem;
+    padding: 0 1rem;
+    /* space out the stars */
+}
+
+.star::before {
+    content: '\2606';
+    /* star outline */
+    cursor: pointer;
+}
+
+.star.rated::before {
+    /* the style for a selected star */
+    content: '\2605';
+    /* filled star */
+}
+
+.stars {
+    counter-reset: rateme 0;
+    font-size: 2.0rem;
+    font-weight: 900;
+}
+
+.star.rated {
+    counter-increment: rateme 1;
+}
+
+.stars::after {
+    content: counter(rateme) '/5';
+}
+
+div.card.quizzCards.africa {
+    background-color: #E1B638;
+}
+
+div.card.quizzCards.america {
+    background-color: #376F21;
+}
+
+div.card.quizzCards.asia {
+    background-color: #BE3DE3;
+}
+
+div.card.quizzCards.europa {
+    background-color: #204987;
+}
+
+div.card.quizzCards.oceania {
+    background-color: #BF3100;
+}
+
+div.card.quizzCards.mundo {
+    background-color: #1BB7B3;
+}
+
+/* ! INSIDE A CONTINENT QUIZZ*/
+div.container-fluid.quizzContinent {
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+div.container-fluid.quizzContinent div.card {
+    margin-top: 3%;
+    margin-bottom: 5%;
+}
+
+div.container-fluid.quizzContinent div.card img.card-img-top {
+    width: 100%;
+    height: 300px;
+}
+
+div.container-fluid.quizzContinent div.card div.card-header.text-center {
+    background-color: #29ABE2;
+}
+
+div.container-fluid.quizzContinent div.card {
+    background-color: #ffffff;
+    transition: all .2s ease-in-out;
+}
+
+div.container-fluid.quizzContinent div.card:hover {
+    transform: rotate(5deg);
+}
+
+/* ! HELP BUTTON MODAL*/
+
+#helpModal div.modal-content {
+    background-color: #1BB7B3;
+}
+
+img.modalLogo {
+    margin: auto;
+    width: 13%;
+    margin-left: 46%;
+    border-radius: 12px;
+    transition: all 1s ease-in-out;
+}
+
+img.modalLogo:hover {
+    transform: rotate(360deg);
+}
+
+#helpModal div.modal-body {
+    color: #ffffff;
+    font-size: 20px;
+}
+
+#helpModal div.modal-footer button {
+    color: #1BB7B3;
+    font-size: 15px;
+    background-color: #BFFFFF;
+}
+
+#helpModal div.modal-header button {
+    font-size: 15px;
+    color: #ffffff;
+}
+
+body#helpModal:after {
+    position: relative;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: black;
+    content: "";
+    pointer-events: none;
+    z-index: 100;
+    opacity: .5
+}
+
+/* !PROFILE */
+
+div.container-fluid.profile div.row {
+    border: 2px solid #29ABE2;
+}
+
+div.row.rounded {
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-bottom: 5%;
+}
+
+button.btn.profileAvatar:focus {
+    box-shadow: 0 0 0 0;
+}
+
+div.progress div.progress-bar {
+    background-color: #CCCC33;
+}
+
+p.profileQuizP {
+    white-space: nowrap;
+}
+
+p#currentXpBar {
+    color: #29ABE2;
+    font-weight: 500;
+    margin: 0;
+}
+
+div.row.rounded div.col-lg-6 p {
+    padding-top: 10%;
+}
+
+div.container-fluid.profile div.row div.col-lg-6 {
+    padding-right: 15%;
+    padding-left: 15%;
+    padding-top: 5%;
+    padding-bottom: 5%;
+}
+
+div.line {
+    height: 80%;
+    width: 2px;
+    background-color: #29ABE2;
+    left: 50%;
+    top: 10%;
+}
+
+form div.form-group>input {
+    border-top: none;
+    border-left: none;
+    border-right: none;
+    border-bottom-color: #29abe2;
+}
+
+form div.form-group {
+    margin-bottom: 25%;
+}
+
+form div.form-group.suggestion {
+    margin-bottom: 0%;
+}
+
+form div.form-group.suggestion>label {
+    color: #ffffff;
+}
+
+form div.form-group.suggestion input[type=text] {
+    margin-bottom: 0;
+}
+
+button#suggestCountry {
+    color: #ffffff;
+    font-weight: 500;
+    border: 2px solid #ffffff;
+}
+
+form div.form-group>input:focus {
+    margin-bottom: 25%;
+    color: #000000;
+    box-shadow: 0 0 0 0;
+}
+
+button.btn.edit {
+    padding-right: 37%;
+    padding-left: 37%;
+    margin-top: 10%;
+    border: 1px solid #29ABE2;
+    border-radius: 6px;
+    transition: all .5s ease-in-out;
+}
+
+button.btn.edit:hover {
+    transform: scale(1.1, 1.1)
+}
+
+button.btn.edit:focus {
+    box-shadow: 0 0 0 1px #29ABE2;
+}
+
+form#profileForm {
+    padding-top: 10%;
+}
+
+form div.form-group>textarea.description {
+    border: 1px solid #29ABE2;
+    border-radius: .5rem;
+    resize: none;
+    transition: all .4s ease-in-out;
+}
+
+form div.form-group>textarea.description:hover {
+    transform: scale(1.1, 1.1)
+}
+
+form div.form-group>textarea.description:focus {
+    box-shadow: 0 0 0 0;
+    resize: none;
+}
+
+/* Profile Modal */
+
+img.modalLogo {
+    margin: auto;
+    width: 10%;
+    margin-left: 46%;
+}
+
+div.modal-body form div.form-group.profile {
+    margin-bottom: 5%;
+}
+
+button.btn.saveNewProfile {
+    color: #000000;
+    border: 1px solid #29ABE2;
+}
+
+/** Botões Avatar */
+button.buttonBoy {
+    background-color: #CCCC33;
+    padding-right: 1.5rem;
+    padding-left: 1.5rem;
+    color: #ffffff;
+    transition: all .5s ease-in-out;
+}
+
+button.buttonGirl {
+    background-color: #BE3DE3;
+    color: #ffffff;
+    transition: all .5s ease-in-out;
+}
+
+button.buttonBoy:focus {
+    box-shadow: 0 0 0 0;
+    color: #ffffff;
+}
+
+button.buttonGirl:focus {
+    color: #ffffff;
+    box-shadow: 0 0 0 0;
+}
+
+button.buttonBoy:hover {
+    color: #ffffff;
+    transform: scale(1.1, 1.1);
+}
+
+button.buttonGirl:hover {
+    color: #ffffff;
+    transform: scale(1.1, 1.1);
+}
+
+/** Fim Botões Avatar */
+
+p.lead.avatarType {
+    color: #CCCC33
+}
+
+/** Statistics */
+
+/* ! STATISTICS + HEADER CONTAINER*/
+
+div.row div.col-12.statistics {
+    color: #ffffff;
+}
+
+div.row div.col-12.statistics img {
+    width: 5%;
+}
+
+/* !USER TABLE FILTER*/
+
+button.statsFilter {
+    border: 1px solid #ffffff;
+    margin-left: 3rem;
+    color: #ffffff;
+    font-weight: 500;
+}
+
+button.statsFilter:focus {
+    box-shadow: 0 0 0 0
+}
+
+button.statsFilter:hover {
+    color: #ffffff
+}
+
+/* ! USERS TABLE + CONTAINER + HEADER*/
+div.container-fluid.users {
+    background-color: #29ABE2;
+}
+
+div.row div.col-lg-6 div.card.mx-auto {
+    background-color: #29ABE2;
+}
+
+div.container-fluid div.row.userHeader div.col-lg-12 h1.display-4.text-center {
+    color: #ffffff;
+    padding-top: 3%;
+    padding-bottom: 3%;
+    font-weight: 500;
+}
+
+table.table-bordered {
+    font-size: 24px;
+    border: 2px solid #ffffff;
+    text-align: center;
+    vertical-align: middle;
+    margin-bottom: 5%;
+}
+
+div.table-responsive {
+    padding-right: 5%;
+    padding-left: 5%;
+}
+
+table.table-bordered>thead>tr>th {
+    border: 2px solid #ffffff;
+}
+
+table.table-bordered>tbody>tr>td {
+    border: 2px solid #ffffff;
+}
+
+table.table-bordered>tbody>tr>th {
+    border: 2px solid #ffffff;
+}
+
+div.container-fluid.stats {
+    background-color: #29ABE2;
+}
+
+/* Footer */
+footer.page-footer {
+    background: #29ABE2;
+    color: #ffffff;
+    font-size: .9rem;
+}
+
+/* Footer Headings */
+footer .footerHeading {
+    color: #CCCC33;
+    white-space: nowrap;
+    font-size: 1rem;
+}
+
+/* Footer Line */
+footer .footerLine {
+    background-color: #CCCC33;
+    margin: 0;
+}
+
+/* Paragrafo copyright */
+footer p.copyrightParagraph {
+    margin: 0;
+}
+
+/* Favicons */
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+}
+
+/* Favicon Facebook */
+.fa-facebook {
+    color: #ffffff;
+}
+
+/* Favicon Twitter */
+.fa-twitter {
+    color: #ffffff;
+}
+
+/* Favicon Youtube */
+.fa-youtube {
+    color: #ffffff;
+}
+
+/* Favicon Instgram */
+.fa-instagram {
+    color: #ffffff;
+}
+
+
+div.container-fluid.text-center div.row {
+    padding-left: 8%;
+    padding-right: 8%;
+}
+
+/* div  with the social media */
+div.col-md-6.col-lg-2.text-center.mx-auto.my-4 div.row {
+    padding: 0%;
+    margin-right: 5%;
+    margin-left: 5%;
+}
+
+div.col-md-6.col-lg-2.text-center.mx-auto.my-4 div.row a {
+    margin: auto
+}
+
+/* ? MEDIA QUERIES */
+/* !iPhone 6,8,9*/
+@media only screen and (max-width: 411px) and (min-width: 370px) {
+
+    .nav-link {
+        font-size: 1.2rem;
+    }
+
+    li.nav-item {
+        padding-left: 0%;
+    }
+
+    .dropdown-menu a.dropdown-item {
+        font-size: 1.15rem;
+    }
+
+    div.dropdown-menu.show {
+        padding-top: 0%
+    }
+
+    /* title and title img */
+    div.row div.col-12.catalog img {
+        width: 55px;
+    }
+
+    h1.display-5.mb-5 {
+        font-size: 2rem;
+    }
+
+    /* Quizz Title */
+    h1.display-4.mx-auto.mt-3 {
+        font-size: 2rem;
+    }
+
+    /* Quizz cards titles */
+    div.col-lg-4 div.card.quizzCards div.card-header {
+        font-size: 1.5rem
+    }
+
+    p.copyrightParagraph {
+        font-size: .8rem;
+    }
+
+    /**QUIZZ LEVELS*/
+    div.col-lg-4 div.card.capitalQuizz div.card-header {
+        font-size: 1.5rem;
+    }
+
+    div.col-lg-4 div.card.locationQuizz div.card-header {
+        font-size: 1.5rem;
+    }
+
+    div.col-lg-4 div.card.flagQuizz div.card-header {
+        font-size: 1.5rem;
+    }
+
+    /* Flag Level */
+    div.col-lg-6.flagInfoText p {
+        margin-bottom: 4%;
+        font-size: 1.1rem
+    }
+
+    div.row div.col-12.text-center p.question {
+        font-size: 1.2rem;
+    }
+
+    /* Location Level */
+    div.col-lg-6.flagInfoText p {
+        margin-bottom: 4%;
+        font-size: 1.1rem
+    }
+
+    div.row div.col-12.text-center p.question {
+        font-size: 1.2rem;
+    }
+
+
+    body#quizzBody {
+        background-color: #EEEBD0;
+        overflow: scroll;
+    }
+
+    /**CONTINENT ORGANIZATION - CATALOG*/
+    /* Carousel cards headers */
+    Div.owl-carousel div.item div.card-header {
+        font-size: 1.5rem;
+    }
+}
+
+/* !SMALL PHONES FOCUS*/
+@media screen and (max-width: 376px) {
+
+    /**NAVBAR */
+    .nav-link {
+        font-size: 1.1rem;
+    }
+
+    li.nav-item {
+        padding-left: 0%;
+    }
+
+    .dropdown-menu a.dropdown-item {
+        font-size: 1rem;
+    }
+
+    div.dropdown-menu.show {
+        padding-top: 0%
+    }
+
+    /* title and title img */
+    div.row div.col-12.catalog img {
+        width: 55px;
+    }
+
+    h1.display-5.mb-5 {
+        font-size: 2rem;
+    }
+
+    p.copyrightParagraph {
+        font-size: .8rem;
+    }
+
+    /* Quizz Title */
+    h1.display-4.mx-auto.mt-3 {
+        font-size: 2rem;
+    }
+
+    /* Quizz cards titles */
+    div.col-lg-4 div.card.quizzCards div.card-header {
+        font-size: 1.5rem
+    }
+
+    /**QUIZZ LEVELS*/
+    div.col-lg-4 div.card.capitalQuizz div.card-header {
+        font-size: 1.5rem;
+    }
+
+    div.col-lg-4 div.card.locationQuizz div.card-header {
+        font-size: 1.5rem;
+    }
+
+    div.col-lg-4 div.card.flagQuizz div.card-header {
+        font-size: 1.5rem;
+    }
+
+    /* Flag Level */
+    div.col-lg-6.flagInfoText p {
+        font-size: 1.1rem
+    }
+
+    div.row div.col-12.text-center p.question {
+        font-size: 1.2rem;
+    }
+
+    /* INFO COUNTRIES IMAGE */
+    div.row div.col-lg-6.infoParagraphImg img.map {
+        width: 80%;
+    }
+
+    body#quizzBody {
+        background-color: #EEEBD0;
+        overflow: scroll;
+    }
+
+    /**CONTINENT ORGANIZATION - CATALOG*/
+    /* Carousel cards headers */
+    div.owl-carousel div.item div.card-header {
+        font-size: 1.5rem;
+    }
+
+    /** PROFILE FORM*/
+    div.col-lg-6.col-md-6.col-xs-6.d-flex.align-items-center {
+        padding-left: 50px;
+        font-size: 2rem;
+    }
+
+    div.row.rounded.position-relative {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+}
+
+/* !PIXEL & IPHONE PLUS*/
+@media only screen and (max-width: 415px) and (min-width: 411px) {
+
+    /* Navbar adjustment */
+    .nav-link {
+        font-size: 1rem;
+        white-space: nowrap;
+    }
+
+    li.nav-item {
+        padding-left: 0;
+    }
+
+    .dropdown-menu a.dropdown-item {
+        font-size: 1rem;
+    }
+
+    /* title and title img */
+    div.row div.col-12.catalog img {
+        width: 55px;
+    }
+
+    /** QUIZZ PAGE CARDS */
+    div.row div.col-12.quizzes img {
+        width: 6%;
+    }
+
+    div.row div.col-12.text-center.quizzes img {
+        width: 12%;
+    }
+
+    h1.display-5.mb-5 {
+        font-size: 2rem;
+    }
+
+    p.copyrightParagraph {
+        font-size: .8rem;
+    }
+
+    /* Quizz Title */
+    h1.display-4.mx-auto.mt-3 {
+        font-size: 2rem;
+    }
+
+    /* Quizz cards titles */
+    div.col-lg-4 div.card.quizzCards div.card-header {
+        font-size: 1.5rem
+    }
+
+    /**QUIZZ LEVELS*/
+    div.col-lg-4 div.card.capitalQuizz div.card-header {
+        font-size: 1.5rem;
+    }
+
+    div.col-lg-4 div.card.locationQuizz div.card-header {
+        font-size: 1.5rem;
+    }
+
+    div.col-lg-4 div.card.flagQuizz div.card-header {
+        font-size: 1.5rem;
+    }
+
+    /* Flag Level */
+    div.col-lg-6.flagInfoText p {
+        font-size: 1.1rem
+    }
+
+    body#quizzBody {
+        background-color: #EEEBD0;
+        overflow: scroll;
+    }
+
+    div.row div.col-12.text-center p.question {
+        font-size: 1.2rem;
+    }
+
+    /* INFO COUNTRIES IMAGE */
+    div.row div.col-lg-6.infoParagraphImg img.map {
+        width: 80%;
+    }
+
+    /**CONTINENT ORGANIZATION - CATALOG*/
+    /* Carousel cards headers */
+    div.owl-carousel div.item div.card-header {
+        font-size: 1.5rem;
+    }
+
+    /** PROFILE FORM*/
+    div.col-lg-6.col-md-6.col-xs-6.d-flex.align-items-center {
+        padding-left: 40px;
+        margin-left: 8px;
+        font-size: 2rem;
+    }
+
+    div.row.rounded.position-relative {
+        margin-right: 10%;
+        margin-left: 10%;
+    }
+}
+
+
+
+
+
+
+@media only screen and (max-width: 321px) and (min-width: 320px) {
+
+    /** PROFILE FORM*/
+    div.col-lg-6.col-md-6.col-xs-6.d-flex.align-items-center {
+        padding-left: 30px;
+        font-size: 1rem;
+    }
+
+    div.row.rounded.position-relative {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    body#quizzBody {
+        background-color: #EEEBD0;
+        overflow: scroll;
+    }
+}
+
+/* !IPAD */
+
+@media only screen and (max-width: 769px) and (min-width: 768px) {
+
+    /**NAVBAR */
+    .nav-link {
+        font-size: 1.2rem;
+    }
+
+    li.nav-item {
+        padding-left: 0%;
+    }
+
+    .dropdown-menu a.dropdown-item {
+        font-size: 1.15rem;
+    }
+
+    div.dropdown-menu.show {
+        padding-top: 0%
+    }
+
+    /* title and title img */
+    div.row div.col-12.catalog img {
+        width: 55px;
+    }
+
+    h1.display-5.mb-5 {
+        font-size: 2rem;
+    }
+
+    /* jumbotron */
+    div.jumbotron.africaJumbo {
+        padding-top: 4%;
+        padding-bottom: 4%;
+    }
+
+    /* Quizz Title */
+    h1.display-4.mx-auto.mt-3 {
+        font-size: 2rem;
+    }
+
+    /* Quizz cards titles */
+    div.col-lg-4 div.card.quizzCards div.card-header {
+        font-size: 1.5rem
+    }
+
+    /**QUIZZ LEVELS*/
+    div.col-lg-4 div.card.capitalQuizz div.card-header {
+        font-size: 1.5rem;
+    }
+
+    div.col-lg-4 div.card.locationQuizz div.card-header {
+        font-size: 1.5rem;
+    }
+
+    div.col-lg-4 div.card.flagQuizz div.card-header {
+        font-size: 1.5rem;
+    }
+
+    /**QUIZZ LEVELS*/
+    div.col-lg-12.text-center.quizzesLevel.mt-5.mb-5 h1 {
+        font-size: 2rem;
+    }
+
+    div.col-12.text-center.quizzesTable h1.display-5.mt-5.mb-5 {
+        font-size: 2rem;
+    }
+
+    /* Quizzes Levels */
+
+    div.col-lg-6.flagInfoText p {
+        font-size: 1.3rem;
+    }
+
+    div.row div.col-12.text-center p.question {
+        font-size: 1.4rem;
+    }
+
+    div.row.questionImage div.col-lg-6 img.flagImage {
+        width: 70%;
+        margin-top: 8%;
+    }
+
+    /* INFO COUNTRIES IMAGE */
+    div.row div.col-lg-6.infoParagraphImg img.map {
+        width: 50%;
+    }
+
+    /**CONTINENT ORGANIZATION - CATALOG*/
+
+    /* Carousel cards headers */
+    div.owl-carousel div.item div.card-header {
+        font-size: 1.5rem;
+    }
+
+    div.owl-carousel div.item {
+        padding-top: 3%;
+    }
+
+    p.card-text {
+        font-size: 1.2rem;
+    }
+
+    /**PÁGINA PROFILE*/
+    div.row.rounded.position-relative {
+        margin-right: 5%;
+        margin-left: 5%;
+    }
+
+    div.col-lg-6.col-md-6.col-xs-6.d-flex.align-items-center {
+        padding-left: 70px
+    }
+
+
+
+}
+
+/* !(IPAD-PRO) */
+
+@media only screen and (max-width: 1025px) and (min-width: 1024px) {
+
+    /* Navbar adjustment */
+    .nav-link {
+        font-size: 1rem;
+        white-space: nowrap;
+    }
+
+    li.nav-item.dropdown {
+        padding-left: 0;
+    }
+
+    .dropdown-menu a.dropdown-item {
+        font-size: 1rem;
+    }
+
+    /* title and title img */
+    div.row div.col-12.catalog img {
+        width: 7%;
+    }
+
+    h1.display-5.mb-5 {
+        font-size: 2rem;
+    }
+
+    /* jumbotron */
+    div.jumbotron.africaJumbo {
+        padding-top: 3%;
+        padding-bottom: 3%;
+    }
+
+    /* Quizz Title */
+    h1.display-4.mx-auto.mt-3 {
+        font-size: 2rem;
+    }
+
+    /* Quizz cards titles */
+    div.col-lg-4 div.card.quizzCards div.card-header {
+        font-size: 1.7rem
+    }
+
+    div.col-12.text-center.quizzesTable h1.display-5.mt-5.mb-5 {
+        font-size: 2rem;
+    }
+
+    /**QUIZZ LEVELS*/
+    div.col-lg-4 div.card.capitalQuizz div.card-header {
+        font-size: 1.7rem;
+    }
+
+    div.col-lg-4 div.card.locationQuizz div.card-header {
+        font-size: 1.7rem;
+    }
+
+    div.col-lg-4 div.card.flagQuizz div.card-header {
+        font-size: 1.7rem;
+    }
+
+    /* Quizzes Levels */
+
+    div.col-lg-6.flagInfoText p {
+        font-size: 1.6rem;
+    }
+
+    div.row div.col-12.text-center p.question {
+        font-size: 1.7rem;
+    }
+
+    div.row.questionImage div.col-lg-6 img.flagImage {
+        width: 60%;
+    }
+
+    /* INFO COUNTRIES IMAGE + TEXT */
+
+    div.col-lg-6.infoParagraphCarousel p.mt-3 {
+        margin-bottom: 3rem;
+    }
+
+    div.row div.col-lg-6.infoParagraphImg img.map {
+        width: 80%;
+        margin-top: 5%;
+    }
+
+    div.owl-carousel div.item img {
+        width: 100%;
+    }
+
+    /**CONTINENT ORGANIZATION - CATALOG*/
+
+    /* Carousel cards headers */
+    div.owl-carousel div.item div.card-header {
+        font-size: 1.7rem;
+    }
+
+    div.owl-carousel div.item {
+        padding-top: 3%;
+    }
+
+    p.card-text {
+        font-size: 1.2rem;
+    }
+
+    /**PROFILE */
+    div.col-lg-6.col-md-6.col-xs-6.d-flex.align-items-center {
+        padding-left: 70px
+    }
+
+    /**CATALOG CARDS ADJUSTS*/
+
+    div.card.africanCards {
+        width: 14rem;
+
+    }
+
+    div.card.africanCards div.card-body p.card-text.paragraph {
+        padding-bottom: 3px;
+        font-weight: 700;
+        font-size: 1rem
+    }
+
+    .star {
+        padding: 0;
+        border-bottom: 0;
+        width: 0%;
+        font-size: 1.6rem
+    }
+}
+
+/*modal create button align to center*/
+#btnSaveNewProfile {
+    width: 50%;
+    margin-left: 0%;
+}
+
+/*modal Logo align to center*/
+#modalLogo {
+    margin-left: 45%;
+}
+
+#europaCatalogTitle {
+    color: #29ABE2
+}
+
+#txtComment {
+    resize: none;
+    border: 2px solid #ffffff;
+    background-color: #29ABE2;
+    color: #ffffff;
+    text-decoration: underline;
+}
+
+#modalContent {
+    background-color: #29ABE2;
+}
+
+#imgModal {
+    height: 17rem;
+    width: 17rem;
+}
+
+
+/* *Quizz Focus adjustments and MQ  */
+p#actualContinet {
+    font-size: 1.7rem
+}
+
+/* ? MEDIA QUERIES */
+/* !iPhone 6,8,9*/
+@media only screen and (max-width: 411px) and (min-width: 370px) {
+
+    div.col-lg-3.col-sm-3.col-xs-3.logoNavQuizz {
+        text-align: center;
+    }
+
+    p#actualContinet {
+        font-size: 1.4rem;
+        margin: 0%;
+    }
+
+    p#actualLevel {
+        font-size: 1.2rem
+    }
+
+
+    p#questionHolder {
+        font-size: 1.2rem
+    }
+
+    p.timer.mt-3 {
+        font-size: 1.2rem;
+        margin-bottom: 4%
+    }
+
+    div#timerHolder {
+        background-color: #4AB71B
+    }
+
+    div.row.questionImage div.col-lg-6 img.flagImage {
+        width: 70%;
+        margin: auto;
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    div.col-lg-3.col-sm-3.col-xs-3.text-center.d-flex.align-items-center.flagInfoText {
+        margin: 0%
+    }
+
+    div.row.optionsRow {
+        margin: 0%
+    }
+
+    /**Country Information */
+    img#imgModal{
+        margin-left: 15px; 
+    }
+
+
+    div#countryModal div.modal-body div.col-lg-6.col-md-12.col-xs-12.infoParagraph.text-center{
+        font-size: 1rem;
+        padding: 7px
+    }
+    div#countryModal div.col-lg-6.col-md-12.col-xs-12.imgInfo div.commentContainer{
+        padding-left: 10px;
+        font-size: 1rem
+    }
+
+}
+
+/* !SMALL PHONES FOCUS*/
+@media screen and (max-width: 376px) {
+    div.col-lg-3.col-sm-3.col-xs-3.logoNavQuizz {
+        text-align: center;
+    }
+
+    p#actualContinet {
+        font-size: 1.4rem;
+        margin: 0%;
+    }
+
+    p#actualLevel {
+        font-size: 1.2rem
+    }
+
+
+    p#questionHolder {
+        font-size: 1.2rem
+    }
+
+    p.timer.mt-3 {
+        font-size: 1.2rem;
+        margin-bottom: 4%
+    }
+
+    div#timerHolder {
+        background-color: #4AB71B
+    }
+
+    div.row.questionImage div.col-lg-6 img.flagImage {
+        width: 70%;
+        margin: auto;
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    div.col-lg-3.col-sm-3.col-xs-3.text-center.d-flex.align-items-center.flagInfoText {
+        margin: 0%
+    }
+
+
+    div.row.optionsRow {
+        margin: 0%
+    }
+
+    /**Country Information */
+    img#imgModal{
+        margin-left: 15px; 
+    }
+
+    div#countryModal div.modal-body div.col-lg-6.col-md-12.col-xs-12.infoParagraph.text-center{
+        font-size: 1rem;
+        padding: 7px
+    }
+    div#countryModal div.col-lg-6.col-md-12.col-xs-12.imgInfo div.commentContainer{
+        padding-left: 10px;
+        font-size: 1rem
+    }
+
+
+
+
+
+}
+
+/* !PIXEL & IPHONE PLUS*/
+@media only screen and (max-width: 415px) and (min-width: 411px) {
+    div.col-lg-3.col-sm-3.col-xs-3.logoNavQuizz {
+        text-align: center;
+    }
+
+    p#actualContinet {
+        font-size: 1.4rem;
+        margin: 0%;
+    }
+
+    p#actualLevel {
+        font-size: 1.2rem
+    }
+
+
+    p#questionHolder {
+        font-size: 1.2rem
+    }
+
+    p.timer.mt-3 {
+        font-size: 1.2rem;
+        margin-bottom: 4%
+    }
+
+    div#timerHolder {
+        background-color: #4AB71B
+    }
+
+    div.row.questionImage div.col-lg-6 img.flagImage {
+        width: 70%;
+        margin: auto;
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    div.col-lg-3.col-sm-3.col-xs-3.text-center.d-flex.align-items-center.flagInfoText {
+        margin: 0%
+    }
+
+
+    div.row.optionsRow {
+        margin: 0%
+    }
+
+}
+
+
+
+
+
+
+@media only screen and (max-width: 321px) and (min-width: 320px) {
+    div.col-lg-3.col-sm-3.col-xs-3.logoNavQuizz {
+        text-align: center;
+    }
+
+    p#actualContinet {
+        font-size: 1.4rem;
+        margin: 0%;
+    }
+
+    p#actualLevel {
+        font-size: 1.2rem
+    }
+
+
+    p#questionHolder {
+        font-size: 1.2rem
+    }
+
+    p.timer.mt-3 {
+        font-size: 1.2rem;
+        margin-bottom: 4%
+    }
+
+    div#timerHolder {
+        background-color: #4AB71B
+    }
+
+    div.row.questionImage div.col-lg-6 img.flagImage {
+        width: 70%;
+        margin: auto;
+        border-radius: 20px 20px 20px 20px;
+    }
+
+    div.col-lg-3.col-sm-3.col-xs-3.text-center.d-flex.align-items-center.flagInfoText {
+        margin: 0%
+    }
+
+
+    div.row.optionsRow {
+        margin: 0%
+    }
+}
+
+/* !IPAD */
+
+@media only screen and (max-width: 769px) and (min-width: 767px) {
+    div#progressionContainer.progress.mr-lg-5.ml-lg-5.mt-lg-1.mb-lg-5.mt-lg-1 {
+        margin-bottom: 5%;
+    }
+}
+
+/* !(IPAD-PRO) */
+@media only screen and (max-width: 1025px) and (min-width: 1024px) {
+    p.my-1 {
+        margin-top: 70%
+    }
+
+    p#actualContinet {
+        font-size: 1.4rem;
+        margin: 0%;
+    }
+
+    p#actualLevel {
+        font-size: 1.2rem
+    }
+
+
+    p#questionHolder {
+        font-size: 1.2rem
+    }
+
+    p.timer.mt-3 {
+        font-size: 1.2rem;
+        margin-bottom: 4%
+    }
+
+
+
+}

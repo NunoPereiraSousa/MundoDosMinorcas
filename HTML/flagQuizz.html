@@ -1,0 +1,107 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>Bandeiras</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+    <!-- Our Css -->
+    <link rel="stylesheet" href="/CSS/pagesAnimations.css">
+    <link rel="stylesheet" href="/CSS/style.css">
+
+    <!-- Our Favicon -->
+    <link rel="icon" type="image/png" href="/Images/Logo2.png">
+
+</head>
+
+<body id="quizzBody" class="animate-in">
+    <div class="container-fluid navQuizz">
+        <div class="row flagInfoRow">
+            <div class="col-lg-3 col-sm-3 col-xs-3 logoNavQuizz">
+                <a class="navbar-brand" href="#">
+                    <img src="/Images/logo.png" alt="Logo" class="logo logoQuizz">
+                </a>
+            </div>
+            <div class="col-lg-3 col-sm-3 col-xs-3 text-center d-flex align-items-center flagInfoText">
+                <p id="actualContinet" class='my-4 mx-auto' style="color: #ffff"></p>
+            </div>
+
+            <div class="col-lg-6 col-sm-6 col-xs-6 text-center d-flex align-items-center flagInfoText">
+                <p id="actualLevel"></p>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid questionContainer">
+        <div class="row">
+            <div class="col-lg-6 col-sm-6 col-xs-6 text-center mt-3">
+                <p class="question" id="questionHolder"></p>
+            </div>
+            <div class="col-lg-6 col-sm-6 col-xs-6 text-center" id="timerHolder">
+                <p class="timer mt-3"></p>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid quizContainer">
+        <div class="row questionImage">
+            <div class="col-lg-6 col-sm-6 col-xs-6 d-flex align-items-center">
+                <img id="quizzImg" src="/Images/Portugal.png" alt="Cabo Verde" class="flagImage">
+            </div>
+            <div class="col-lg-6 col-sm-6 col-xs-6 optionsCol" id='quizzHolder'>
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid exitHelp">
+        <div class="row">
+            <div class="col-6 text-center">
+                <button class="btn exit" id='quit'>Sair</button>
+            </div>
+            <div class="col-6 text-center currentLevels">
+                <div class="row mx-auto" id="levelButtonsHolder">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="container-fluid navQuizz" id="secondOne">
+        <div class="row flagInfoRow" style="margin-bottom: 0%">
+            <div class="col-12 logoNavQuizz text-center mt-lg-3">
+                <p class="my-1" style="color: #ffff;font-size:1.5rem">Progresso</p>
+            </div>
+            <div class="col-12 logoNavQuizz">
+                <div class="progress mr-lg-5 ml-lg-5 mt-lg-1 mb-lg-5 mt-lg-1" id="progressionContainer">
+                    <div style="margin-top: 0%;" class="progress-bar progress-bar-striped progress-bar-animated"
+                        role="progressbar" aria-valuemin="0" aria-valuemax="100">
+                        <p id="currentXpBar"></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Optional JavaScript -->
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@8"></script>
+    <script src="/JS/controler/timer.js"></script>
+    <script src="/JS/controler/flagQuizz.js"></script>
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+</body>
+
+</html>
